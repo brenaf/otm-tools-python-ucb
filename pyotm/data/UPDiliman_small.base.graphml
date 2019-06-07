@@ -1,0 +1,2900 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="area" attr.type="string" for="edge" id="d24"/>
+<key attr.name="bridge" attr.type="string" for="edge" id="d23"/>
+<key attr.name="access" attr.type="string" for="edge" id="d22"/>
+<key attr.name="junction" attr.type="string" for="edge" id="d21"/>
+<key attr.name="ref" attr.type="string" for="edge" id="d20"/>
+<key attr.name="maxspeed" attr.type="string" for="edge" id="d19"/>
+<key attr.name="name" attr.type="string" for="edge" id="d18"/>
+<key attr.name="capacity_lane_hour" attr.type="string" for="edge" id="d17"/>
+<key attr.name="speed" attr.type="string" for="edge" id="d16"/>
+<key attr.name="lanes_capped" attr.type="string" for="edge" id="d15"/>
+<key attr.name="osmid" attr.type="string" for="edge" id="d14"/>
+<key attr.name="oneway" attr.type="string" for="edge" id="d13"/>
+<key attr.name="length" attr.type="string" for="edge" id="d12"/>
+<key attr.name="lanes" attr.type="string" for="edge" id="d11"/>
+<key attr.name="highway" attr.type="string" for="edge" id="d10"/>
+<key attr.name="geometry" attr.type="string" for="edge" id="d9"/>
+<key attr.name="geometry" attr.type="string" for="node" id="d8"/>
+<key attr.name="y" attr.type="string" for="node" id="d7"/>
+<key attr.name="x" attr.type="string" for="node" id="d6"/>
+<key attr.name="osmid" attr.type="string" for="node" id="d5"/>
+<key attr.name="lon" attr.type="string" for="node" id="d4"/>
+<key attr.name="lat" attr.type="string" for="node" id="d3"/>
+<key attr.name="highway" attr.type="string" for="node" id="d2"/>
+<key attr.name="name" attr.type="string" for="graph" id="d1"/>
+<key attr.name="crs" attr.type="string" for="graph" id="d0"/>
+<graph edgedefault="directed"><data key="d0">{'init': 'epsg:32651'}</data>
+<data key="d1">unnamed_UTM</data>
+<node id="5473026064">
+  <data key="d2">motorway_junction</data>
+  <data key="d3">14.6648316</data>
+  <data key="d4">121.0714457</data>
+  <data key="d5">5473026064</data>
+  <data key="d6">292312.1632133606</data>
+  <data key="d7">1622140.562611097</data>
+  <data key="d8">POINT (292312.1632133606 1622140.562611097)</data>
+</node>
+<node id="5473026085">
+  <data key="d3">14.6654589</data>
+  <data key="d4">121.0709662</data>
+  <data key="d5">5473026085</data>
+  <data key="d6">292261.10017513984</data>
+  <data key="d7">1622210.4176813916</data>
+  <data key="d8">POINT (292261.1001751398 1622210.417681392)</data>
+</node>
+<node id="5832233083">
+  <data key="d3">14.6525836</data>
+  <data key="d4">121.0741404</data>
+  <data key="d5">5832233083</data>
+  <data key="d6">292590.9212531827</data>
+  <data key="d7">1620782.774684561</data>
+  <data key="d8">POINT (292590.9212531827 1620782.774684561)</data>
+</node>
+<node id="5832233084">
+  <data key="d3">14.6483463</data>
+  <data key="d4">121.0741565</data>
+  <data key="d5">5832233084</data>
+  <data key="d6">292588.6681169922</data>
+  <data key="d7">1620313.877446353</data>
+  <data key="d8">POINT (292588.6681169922 1620313.877446353)</data>
+</node>
+<node id="4014395574">
+  <data key="d3">14.6616465</data>
+  <data key="d4">121.0644015</data>
+  <data key="d5">4014395574</data>
+  <data key="d6">291550.29853853694</data>
+  <data key="d7">1621794.5909837107</data>
+  <data key="d8">POINT (291550.2985385369 1621794.590983711)</data>
+</node>
+<node id="33452218">
+  <data key="d3">14.6658735</data>
+  <data key="d4">121.0715288</data>
+  <data key="d5">33452218</data>
+  <data key="d6">292322.09812425834</data>
+  <data key="d7">1622255.7790270175</data>
+  <data key="d8">POINT (292322.0981242583 1622255.779027018)</data>
+</node>
+<node id="2141118656">
+  <data key="d3">14.668438</data>
+  <data key="d4">121.0753592</data>
+  <data key="d5">2141118656</data>
+  <data key="d6">292737.14648848504</data>
+  <data key="d7">1622536.0422418467</data>
+  <data key="d8">POINT (292737.146488485 1622536.042241847)</data>
+</node>
+<node id="5404836121">
+  <data key="d3">14.648528</data>
+  <data key="d4">121.0492641</data>
+  <data key="d5">5404836121</data>
+  <data key="d6">289907.0518936205</data>
+  <data key="d7">1620356.9355389709</data>
+  <data key="d8">POINT (289907.0518936205 1620356.935538971)</data>
+</node>
+<node id="5404836122">
+  <data key="d3">14.6490728</data>
+  <data key="d4">121.0481152</data>
+  <data key="d5">5404836122</data>
+  <data key="d6">289783.7936943197</data>
+  <data key="d7">1620418.2881770392</data>
+  <data key="d8">POINT (289783.7936943197 1620418.288177039)</data>
+</node>
+<node id="1425125657">
+  <data key="d3">14.6454877</data>
+  <data key="d4">121.053084</data>
+  <data key="d5">1425125657</data>
+  <data key="d6">290315.6999058095</data>
+  <data key="d7">1620016.9633510765</data>
+  <data key="d8">POINT (290315.6999058095 1620016.963351076)</data>
+</node>
+<node id="1425125658">
+  <data key="d3">14.6455458</data>
+  <data key="d4">121.0531811</data>
+  <data key="d5">1425125658</data>
+  <data key="d6">290326.2164377548</data>
+  <data key="d7">1620023.3026191385</data>
+  <data key="d8">POINT (290326.2164377548 1620023.302619138)</data>
+</node>
+<node id="24265131">
+  <data key="d2">traffic_signals</data>
+  <data key="d3">14.6548991</data>
+  <data key="d4">121.0584286</data>
+  <data key="d5">24265131</data>
+  <data key="d6">290900.44023742684</data>
+  <data key="d7">1621053.4570824732</data>
+  <data key="d8">POINT (290900.4402374268 1621053.457082473)</data>
+</node>
+<node id="1832657401">
+  <data key="d3">14.6597177</data>
+  <data key="d4">121.0761152</data>
+  <data key="d5">1832657401</data>
+  <data key="d6">292810.3807419861</data>
+  <data key="d7">1621570.396206623</data>
+  <data key="d8">POINT (292810.3807419861 1621570.396206623)</data>
+</node>
+<node id="5593633283">
+  <data key="d3">14.6615687</data>
+  <data key="d4">121.0642979</data>
+  <data key="d5">5593633283</data>
+  <data key="d6">291539.0642086136</data>
+  <data key="d7">1621786.077370554</data>
+  <data key="d8">POINT (291539.0642086136 1621786.077370554)</data>
+</node>
+<node id="5593633286">
+  <data key="d3">14.6609208</data>
+  <data key="d4">121.0633017</data>
+  <data key="d5">5593633286</data>
+  <data key="d6">291431.13129189314</data>
+  <data key="d7">1621715.3012090258</data>
+  <data key="d8">POINT (291431.1312918931 1621715.301209026)</data>
+</node>
+<node id="5286818313">
+  <data key="d3">14.657803</data>
+  <data key="d4">121.0589076</data>
+  <data key="d5">5286818313</data>
+  <data key="d6">290954.7995323895</data>
+  <data key="d7">1621374.3510636443</data>
+  <data key="d8">POINT (290954.7995323895 1621374.351063644)</data>
+</node>
+<node id="5286822431">
+  <data key="d3">14.6579764</data>
+  <data key="d4">121.0588627</data>
+  <data key="d5">5286822431</data>
+  <data key="d6">290950.1269823918</data>
+  <data key="d7">1621393.5804533116</data>
+  <data key="d8">POINT (290950.1269823918 1621393.580453312)</data>
+</node>
+<node id="5286822435">
+  <data key="d3">14.6570207</data>
+  <data key="d4">121.0574452</data>
+  <data key="d5">5286822435</data>
+  <data key="d6">290796.51100871264</data>
+  <data key="d7">1621289.1357553122</data>
+  <data key="d8">POINT (290796.5110087126 1621289.135755312)</data>
+</node>
+<node id="34128519">
+  <data key="d3">14.6631266</data>
+  <data key="d4">121.0742028</data>
+  <data key="d5">34128519</data>
+  <data key="d6">292607.5702073907</data>
+  <data key="d7">1621949.3638841289</data>
+  <data key="d8">POINT (292607.5702073907 1621949.363884129)</data>
+</node>
+<node id="5499179726">
+  <data key="d2">motorway_junction</data>
+  <data key="d3">14.6656998</data>
+  <data key="d4">121.0705183</data>
+  <data key="d5">5499179726</data>
+  <data key="d6">292213.07689181576</data>
+  <data key="d7">1622237.4862710726</data>
+  <data key="d8">POINT (292213.0768918158 1622237.486271073)</data>
+</node>
+<node id="5832237785">
+  <data key="d3">14.6535897</data>
+  <data key="d4">121.0741471</data>
+  <data key="d5">5832237785</data>
+  <data key="d6">292592.5900499805</data>
+  <data key="d7">1620894.0995257169</data>
+  <data key="d8">POINT (292592.5900499805 1620894.099525717)</data>
+</node>
+<node id="5832237786">
+  <data key="d3">14.6534581</data>
+  <data key="d4">121.0741463</data>
+  <data key="d5">5832237786</data>
+  <data key="d6">292592.3799925402</data>
+  <data key="d7">1620879.5379314846</data>
+  <data key="d8">POINT (292592.3799925402 1620879.537931485)</data>
+</node>
+<node id="219738885">
+  <data key="d3">14.6532754</data>
+  <data key="d4">121.0524632</data>
+  <data key="d5">219738885</data>
+  <data key="d6">290256.2276698847</data>
+  <data key="d7">1620879.3032992026</data>
+  <data key="d8">POINT (290256.2276698847 1620879.303299203)</data>
+</node>
+<node id="1723253583">
+  <data key="d2">motorway_junction</data>
+  <data key="d3">14.6657911</data>
+  <data key="d4">121.0698233</data>
+  <data key="d5">1723253583</data>
+  <data key="d6">292138.2933167885</data>
+  <data key="d7">1622248.2278949313</data>
+  <data key="d8">POINT (292138.2933167885 1622248.227894931)</data>
+</node>
+<node id="17216338">
+  <data key="d3">14.6531421</data>
+  <data key="d4">121.0512151</data>
+  <data key="d5">17216338</data>
+  <data key="d6">290121.6386374474</data>
+  <data key="d7">1620865.7096987686</data>
+  <data key="d8">POINT (290121.6386374474 1620865.709698769)</data>
+</node>
+<node id="1723253595">
+  <data key="d3">14.6661227</data>
+  <data key="d4">121.0713822</data>
+  <data key="d5">1723253595</data>
+  <data key="d6">292306.5405708033</data>
+  <data key="d7">1622283.4891995436</data>
+  <data key="d8">POINT (292306.5405708033 1622283.489199544)</data>
+</node>
+<node id="668373971">
+  <data key="d3">14.6688644</data>
+  <data key="d4">121.0754405</data>
+  <data key="d5">668373971</data>
+  <data key="d6">292746.3059988512</data>
+  <data key="d7">1622583.151451817</data>
+  <data key="d8">POINT (292746.3059988512 1622583.151451817)</data>
+</node>
+<node id="1161442412">
+  <data key="d3">14.6543835</data>
+  <data key="d4">121.0745495</data>
+  <data key="d5">1161442412</data>
+  <data key="d6">292636.6884565781</data>
+  <data key="d7">1620981.5695063784</data>
+  <data key="d8">POINT (292636.6884565781 1620981.569506378)</data>
+</node>
+<node id="1161442425">
+  <data key="d3">14.6557383</data>
+  <data key="d4">121.0745459</data>
+  <data key="d5">1161442425</data>
+  <data key="d6">292637.5757285148</data>
+  <data key="d7">1621131.4895173141</data>
+  <data key="d8">POINT (292637.5757285148 1621131.489517314)</data>
+</node>
+<node id="2123224262">
+  <data key="d3">14.6597759</data>
+  <data key="d4">121.0762649</data>
+  <data key="d5">2123224262</data>
+  <data key="d6">292826.5625021021</data>
+  <data key="d7">1621576.6992883233</data>
+  <data key="d8">POINT (292826.5625021021 1621576.699288323)</data>
+</node>
+<node id="5499282651">
+  <data key="d3">14.6619078</data>
+  <data key="d4">121.0647923</data>
+  <data key="d5">5499282651</data>
+  <data key="d6">291592.6461614392</data>
+  <data key="d7">1621823.1454586682</data>
+  <data key="d8">POINT (291592.6461614392 1621823.145458668)</data>
+</node>
+<node id="1161442585">
+  <data key="d3">14.6550395</data>
+  <data key="d4">121.0742903</data>
+  <data key="d5">1161442585</data>
+  <data key="d6">292609.38190391846</data>
+  <data key="d7">1621054.3973430153</data>
+  <data key="d8">POINT (292609.3819039185 1621054.397343015)</data>
+</node>
+<node id="1802319218">
+  <data key="d3">14.6618366</data>
+  <data key="d4">121.0641996</data>
+  <data key="d5">1802319218</data>
+  <data key="d6">291528.7280930473</data>
+  <data key="d7">1621815.8128706506</data>
+  <data key="d8">POINT (291528.7280930473 1621815.812870651)</data>
+</node>
+<node id="1161442698">
+  <data key="d3">14.6547075</data>
+  <data key="d4">121.0742907</data>
+  <data key="d5">1161442698</data>
+  <data key="d6">292609.11248831847</data>
+  <data key="d7">1621017.6591890634</data>
+  <data key="d8">POINT (292609.1124883185 1621017.659189063)</data>
+</node>
+<node id="34018707">
+  <data key="d3">14.6475063</data>
+  <data key="d4">121.07448</data>
+  <data key="d5">34018707</data>
+  <data key="d6">292622.73001081997</data>
+  <data key="d7">1620220.6301417465</data>
+  <data key="d8">POINT (292622.73001082 1620220.630141746)</data>
+</node>
+<node id="29025724">
+  <data key="d2">traffic_signals</data>
+  <data key="d3">14.654723</data>
+  <data key="d4">121.0584358</data>
+  <data key="d5">29025724</data>
+  <data key="d6">290901.0487820072</data>
+  <data key="d7">1621033.9637510108</data>
+  <data key="d8">POINT (290901.0487820072 1621033.963751011)</data>
+</node>
+<node id="32519675">
+  <data key="d3">14.6493953</data>
+  <data key="d4">121.0743208</data>
+  <data key="d5">32519675</data>
+  <data key="d6">292607.35590812284</data>
+  <data key="d7">1620429.8050116017</data>
+  <data key="d8">POINT (292607.3559081228 1620429.805011602)</data>
+</node>
+<node id="1651090988">
+  <data key="d2">motorway_junction</data>
+  <data key="d3">14.6644736</data>
+  <data key="d4">121.072224</data>
+  <data key="d5">1651090988</data>
+  <data key="d6">292395.66928581</data>
+  <data key="d7">1622100.2330999046</data>
+  <data key="d8">POINT (292395.66928581 1622100.233099905)</data>
+</node>
+<node id="315795077">
+  <data key="d3">14.6471872</data>
+  <data key="d4">121.0520219</data>
+  <data key="d5">315795077</data>
+  <data key="d6">290202.8895776116</data>
+  <data key="d7">1620206.0089998576</data>
+  <data key="d8">POINT (290202.8895776116 1620206.008999858)</data>
+</node>
+<node id="5475436201">
+  <data key="d3">14.6620327</data>
+  <data key="d4">121.075215</data>
+  <data key="d5">5475436201</data>
+  <data key="d6">292715.582075824</data>
+  <data key="d7">1621827.3894216751</data>
+  <data key="d8">POINT (292715.582075824 1621827.389421675)</data>
+</node>
+<node id="767059625">
+  <data key="d3">14.6456639</data>
+  <data key="d4">121.0531033</data>
+  <data key="d5">767059625</data>
+  <data key="d6">290317.9468118984</data>
+  <data key="d7">1620036.4432646954</data>
+  <data key="d8">POINT (290317.9468118984 1620036.443264695)</data>
+</node>
+<node id="1655330495">
+  <data key="d3">14.6647885</data>
+  <data key="d4">121.0708569</data>
+  <data key="d5">1655330495</data>
+  <data key="d6">292248.69308171654</data>
+  <data key="d7">1622136.3341250133</data>
+  <data key="d8">POINT (292248.6930817165 1622136.334125013)</data>
+</node>
+<node id="5475456844">
+  <data key="d3">14.6640774</data>
+  <data key="d4">121.0726618</data>
+  <data key="d5">5475456844</data>
+  <data key="d6">292442.4585774148</data>
+  <data key="d7">1622055.9892996985</data>
+  <data key="d8">POINT (292442.4585774148 1622055.989299698)</data>
+</node>
+<node id="32520021">
+  <data key="d3">14.6493993</data>
+  <data key="d4">121.0744894</data>
+  <data key="d5">32520021</data>
+  <data key="d6">292625.5236319869</data>
+  <data key="d7">1620430.0931901892</data>
+  <data key="d8">POINT (292625.5236319869 1620430.093190189)</data>
+</node>
+<node id="5515806586">
+  <data key="d3">14.6639478</data>
+  <data key="d4">121.0689419</data>
+  <data key="d5">5515806586</data>
+  <data key="d6">292041.6022897612</data>
+  <data key="d7">1622045.0653350404</data>
+  <data key="d8">POINT (292041.6022897612 1622045.06533504)</data>
+</node>
+<node id="306542783">
+  <data key="d3">14.6480544</data>
+  <data key="d4">121.0743035</data>
+  <data key="d5">306542783</data>
+  <data key="d6">292604.23046087165</data>
+  <data key="d7">1620281.4423185883</data>
+  <data key="d8">POINT (292604.2304608717 1620281.442318588)</data>
+</node>
+<node id="5464860633">
+  <data key="d3">14.649979</data>
+  <data key="d4">121.0741518</data>
+  <data key="d5">5464860633</data>
+  <data key="d6">292589.698132418</data>
+  <data key="d7">1620494.5497149553</data>
+  <data key="d8">POINT (292589.698132418 1620494.549714955)</data>
+</node>
+<node id="5383505900">
+  <data key="d3">14.6588755</data>
+  <data key="d4">121.0602184</data>
+  <data key="d5">5383505900</data>
+  <data key="d6">291097.0301688112</data>
+  <data key="d7">1621491.8198474457</data>
+  <data key="d8">POINT (291097.0301688112 1621491.819847446)</data>
+</node>
+<node id="5475547279">
+  <data key="d3">14.6654019</data>
+  <data key="d4">121.0708896</data>
+  <data key="d5">5475547279</data>
+  <data key="d6">292252.7945485577</data>
+  <data key="d7">1622204.1806402635</data>
+  <data key="d8">POINT (292252.7945485577 1622204.180640263)</data>
+</node>
+<node id="5475547295">
+  <data key="d3">14.6644769</data>
+  <data key="d4">121.0686421</data>
+  <data key="d5">5475547295</data>
+  <data key="d6">292009.8054766963</data>
+  <data key="d7">1622103.8893109986</data>
+  <data key="d8">POINT (292009.8054766963 1622103.889310999)</data>
+</node>
+<node id="306542754">
+  <data key="d3">14.6556396</data>
+  <data key="d4">121.0561355</data>
+  <data key="d5">306542754</data>
+  <data key="d6">290654.1029091943</data>
+  <data key="d7">1621137.5186326539</data>
+  <data key="d8">POINT (290654.1029091943 1621137.518632654)</data>
+</node>
+<node id="5475469605">
+  <data key="d3">14.664089</data>
+  <data key="d4">121.0680278</data>
+  <data key="d5">5475469605</data>
+  <data key="d6">291943.2622349643</data>
+  <data key="d7">1622061.5307175212</data>
+  <data key="d8">POINT (291943.2622349643 1622061.530717521)</data>
+</node>
+<node id="5286795626">
+  <data key="d3">14.6488486</data>
+  <data key="d4">121.0510754</data>
+  <data key="d5">5286795626</data>
+  <data key="d6">290102.49909074255</data>
+  <data key="d7">1620390.7321969084</data>
+  <data key="d8">POINT (290102.4990907426 1620390.732196908)</data>
+</node>
+<node id="5286795627">
+  <data key="d3">14.6487681</data>
+  <data key="d4">121.0509445</data>
+  <data key="d5">5286795627</data>
+  <data key="d6">290088.3198348554</data>
+  <data key="d7">1620381.9456519377</data>
+  <data key="d8">POINT (290088.3198348554 1620381.945651938)</data>
+</node>
+<node id="5286795628">
+  <data key="d3">14.6473147</data>
+  <data key="d4">121.0519927</data>
+  <data key="d5">5286795628</data>
+  <data key="d6">290199.8650200694</data>
+  <data key="d7">1620220.1448493802</data>
+  <data key="d8">POINT (290199.8650200694 1620220.14484938)</data>
+</node>
+<node id="5286795634">
+  <data key="d3">14.6488085</data>
+  <data key="d4">121.0510126</data>
+  <data key="d5">5286795634</data>
+  <data key="d6">290095.69510645425</data>
+  <data key="d7">1620386.3530651645</data>
+  <data key="d8">POINT (290095.6951064543 1620386.353065165)</data>
+</node>
+<node id="1202895298">
+  <data key="d3">14.6571744</data>
+  <data key="d4">121.0584538</data>
+  <data key="d5">1202895298</data>
+  <data key="d6">290905.3146184796</data>
+  <data key="d7">1621305.2114481705</data>
+  <data key="d8">POINT (290905.3146184796 1621305.21144817)</data>
+</node>
+<node id="1202895299">
+  <data key="d3">14.6566381</data>
+  <data key="d4">121.0570806</data>
+  <data key="d5">1202895299</data>
+  <data key="d6">290756.86877860106</data>
+  <data key="d7">1621247.1355200824</data>
+  <data key="d8">POINT (290756.8687786011 1621247.135520082)</data>
+</node>
+<node id="1202895302">
+  <data key="d3">14.6576669</data>
+  <data key="d4">121.0590451</data>
+  <data key="d5">1202895302</data>
+  <data key="d6">290969.48336590314</data>
+  <data key="d7">1621359.163628355</data>
+  <data key="d8">POINT (290969.4833659031 1621359.163628355)</data>
+</node>
+<node id="508308004">
+  <data key="d3">14.653365</data>
+  <data key="d4">121.0521936</data>
+  <data key="d5">508308004</data>
+  <data key="d6">290227.2680507065</data>
+  <data key="d7">1620889.4680503274</data>
+  <data key="d8">POINT (290227.2680507065 1620889.468050327)</data>
+</node>
+<node id="5475588690">
+  <data key="d3">14.6619538</data>
+  <data key="d4">121.0656106</data>
+  <data key="d5">5475588690</data>
+  <data key="d6">291680.8438530995</data>
+  <data key="d7">1621827.4818847266</data>
+  <data key="d8">POINT (291680.8438530995 1621827.481884727)</data>
+</node>
+<node id="5475588692">
+  <data key="d3">14.6623867</data>
+  <data key="d4">121.0657604</data>
+  <data key="d5">5475588692</data>
+  <data key="d6">291697.39105687034</data>
+  <data key="d7">1621875.2471449557</data>
+  <data key="d8">POINT (291697.3910568703 1621875.247144956)</data>
+</node>
+<node id="6118136437">
+  <data key="d3">14.663974</data>
+  <data key="d4">121.0687425</data>
+  <data key="d5">6118136437</data>
+  <data key="d6">292020.1462280266</data>
+  <data key="d7">1622048.1478859582</data>
+  <data key="d8">POINT (292020.1462280266 1622048.147885958)</data>
+</node>
+<node id="1684834992">
+  <data key="d3">14.6632186</data>
+  <data key="d4">121.0743192</data>
+  <data key="d5">1684834992</data>
+  <data key="d6">292620.1963141541</data>
+  <data key="d7">1621959.4375144418</data>
+  <data key="d8">POINT (292620.1963141541 1621959.437514442)</data>
+</node>
+<node id="5475576560">
+  <data key="d3">14.6632028</data>
+  <data key="d4">121.0677987</data>
+  <data key="d5">5475576560</data>
+  <data key="d6">291917.7444520127</data>
+  <data key="d7">1621963.6777558434</data>
+  <data key="d8">POINT (291917.7444520127 1621963.677755843)</data>
+</node>
+<node id="5475576564">
+  <data key="d3">14.6631447</data>
+  <data key="d4">121.067458</data>
+  <data key="d5">5475576564</data>
+  <data key="d6">291880.98672353337</data>
+  <data key="d7">1621957.5620820909</data>
+  <data key="d8">POINT (291880.9867235334 1621957.562082091)</data>
+</node>
+<node id="5475576579">
+  <data key="d3">14.6541192</data>
+  <data key="d4">121.0540197</data>
+  <data key="d5">5475576579</data>
+  <data key="d6">290424.7171695583</data>
+  <data key="d7">1620971.2339216624</data>
+  <data key="d8">POINT (290424.7171695583 1620971.233921662)</data>
+</node>
+<node id="5475576580">
+  <data key="d3">14.6552506</data>
+  <data key="d4">121.0557589</data>
+  <data key="d5">5475576580</data>
+  <data key="d6">290613.16132478684</data>
+  <data key="d7">1621094.8214698073</data>
+  <data key="d8">POINT (290613.1613247868 1621094.821469807)</data>
+</node>
+<node id="321702674">
+  <data key="d2">traffic_signals</data>
+  <data key="d3">14.6483406</data>
+  <data key="d4">121.0743078</data>
+  <data key="d5">321702674</data>
+  <data key="d6">292604.96299460885</data>
+  <data key="d7">1620313.1081065738</data>
+  <data key="d8">POINT (292604.9629946089 1620313.108106574)</data>
+</node>
+<node id="5473078122">
+  <data key="d3">14.6651445</data>
+  <data key="d4">121.0696537</data>
+  <data key="d5">5473078122</data>
+  <data key="d6">292119.41240234865</data>
+  <data key="d7">1622176.833402752</data>
+  <data key="d8">POINT (292119.4124023487 1622176.833402752)</data>
+</node>
+<node id="5473078149">
+  <data key="d2">motorway_junction</data>
+  <data key="d3">14.6679832</data>
+  <data key="d4">121.0687741</data>
+  <data key="d5">5473078149</data>
+  <data key="d6">292027.3378643401</data>
+  <data key="d7">1622491.7624443118</data>
+  <data key="d8">POINT (292027.3378643401 1622491.762444312)</data>
+</node>
+<node id="21834672">
+  <data key="d3">14.6524545</data>
+  <data key="d4">121.0516755</data>
+  <data key="d5">21834672</data>
+  <data key="d6">290170.58438425465</data>
+  <data key="d7">1620789.1948790203</data>
+  <data key="d8">POINT (290170.5843842546 1620789.19487902)</data>
+</node>
+<node id="5286775739">
+  <data key="d3">14.6544996</data>
+  <data key="d4">121.0536561</data>
+  <data key="d5">5286775739</data>
+  <data key="d6">290385.9073899863</data>
+  <data key="d7">1621013.6646434565</data>
+  <data key="d8">POINT (290385.9073899863 1621013.664643456)</data>
+</node>
+<node id="5286775745">
+  <data key="d3">14.6544542</data>
+  <data key="d4">121.05354</data>
+  <data key="d5">5286775745</data>
+  <data key="d6">290373.3564276677</data>
+  <data key="d7">1621008.7483460302</data>
+  <data key="d8">POINT (290373.3564276677 1621008.74834603)</data>
+</node>
+<node id="5286775744">
+  <data key="d3">14.6538718</data>
+  <data key="d4">121.0526696</data>
+  <data key="d5">5286775744</data>
+  <data key="d6">290279.0314868882</data>
+  <data key="d7">1620945.10799598</data>
+  <data key="d8">POINT (290279.0314868882 1620945.10799598)</data>
+</node>
+<node id="5286775749">
+  <data key="d3">14.6537015</data>
+  <data key="d4">121.0526065</data>
+  <data key="d5">5286775749</data>
+  <data key="d6">290272.07143198844</data>
+  <data key="d7">1620926.3215447026</data>
+  <data key="d8">POINT (290272.0714319884 1620926.321544703)</data>
+</node>
+<node id="21834704">
+  <data key="d3">14.6535897</data>
+  <data key="d4">121.0742964</data>
+  <data key="d5">21834704</data>
+  <data key="d6">292608.6744382785</data>
+  <data key="d7">1620893.9627115089</data>
+  <data key="d8">POINT (292608.6744382785 1620893.962711509)</data>
+</node>
+<node id="1800207443">
+  <data key="d3">14.6659842</data>
+  <data key="d4">121.0702274</data>
+  <data key="d5">1800207443</data>
+  <data key="d6">292182.00778021733</data>
+  <data key="d7">1622269.2242329828</data>
+  <data key="d8">POINT (292182.0077802173 1622269.224232983)</data>
+</node>
+<node id="661003422">
+  <data key="d3">14.6516984</data>
+  <data key="d4">121.0515926</data>
+  <data key="d5">661003422</data>
+  <data key="d6">290160.9332722098</data>
+  <data key="d7">1620705.6037760796</data>
+  <data key="d8">POINT (290160.9332722098 1620705.60377608)</data>
+</node>
+<node id="1204284628">
+  <data key="d3">14.6590221</data>
+  <data key="d4">121.0612099</data>
+  <data key="d5">1204284628</data>
+  <data key="d6">291203.98360060184</data>
+  <data key="d7">1621507.1268627082</data>
+  <data key="d8">POINT (291203.9836006018 1621507.126862708)</data>
+</node>
+<node id="1204284635">
+  <data key="d3">14.6592464</data>
+  <data key="d4">121.0609387</data>
+  <data key="d5">1204284635</data>
+  <data key="d6">291174.9798621322</data>
+  <data key="d7">1621532.1974837955</data>
+  <data key="d8">POINT (291174.9798621322 1621532.197483795)</data>
+</node>
+<node id="1112906972">
+  <data key="d3">14.6640142</data>
+  <data key="d4">121.0681358</data>
+  <data key="d5">1112906972</data>
+  <data key="d6">291954.8260957253</data>
+  <data key="d7">1622053.154268686</data>
+  <data key="d8">POINT (291954.8260957253 1622053.154268686)</data>
+</node>
+<node id="26082601">
+  <data key="d3">14.6575493</data>
+  <data key="d4">121.074255</data>
+  <data key="d5">26082601</data>
+  <data key="d6">292607.94170588185</data>
+  <data key="d7">1621332.1541220257</data>
+  <data key="d8">POINT (292607.9417058819 1621332.154122026)</data>
+</node>
+<node id="5404831063">
+  <data key="d3">14.6521182</data>
+  <data key="d4">121.0518299</data>
+  <data key="d5">5404831063</data>
+  <data key="d6">290186.89828614704</data>
+  <data key="d7">1620751.8377137927</data>
+  <data key="d8">POINT (290186.898286147 1620751.837713793)</data>
+</node>
+<node id="26504623">
+  <data key="d3">14.6456029</data>
+  <data key="d4">121.0530081</data>
+  <data key="d5">26504623</data>
+  <data key="d6">290307.6322247249</data>
+  <data key="d7">1620029.7813354589</data>
+  <data key="d8">POINT (290307.6322247249 1620029.781335459)</data>
+</node>
+<node id="6332489160">
+  <data key="d3">14.6598792</data>
+  <data key="d4">121.0624847</data>
+  <data key="d5">6332489160</data>
+  <data key="d6">291342.12982937554</data>
+  <data key="d7">1621600.7946129912</data>
+  <data key="d8">POINT (291342.1298293755 1621600.794612991)</data>
+</node>
+<node id="6332489165">
+  <data key="d3">14.6601445</data>
+  <data key="d4">121.0623392</data>
+  <data key="d5">6332489165</data>
+  <data key="d6">291326.70653820015</data>
+  <data key="d7">1621630.2860424395</data>
+  <data key="d8">POINT (291326.7065382001 1621630.28604244)</data>
+</node>
+<node id="6332489166">
+  <data key="d3">14.6602736</data>
+  <data key="d4">121.0625413</data>
+  <data key="d5">6332489166</data>
+  <data key="d6">291348.6009669291</data>
+  <data key="d7">1621644.38541317</data>
+  <data key="d8">POINT (291348.6009669291 1621644.38541317)</data>
+</node>
+<node id="6332489171">
+  <data key="d3">14.6600714</data>
+  <data key="d4">121.0627706</data>
+  <data key="d5">6332489171</data>
+  <data key="d6">291373.1117754791</data>
+  <data key="d7">1621621.7991546274</data>
+  <data key="d8">POINT (291373.1117754791 1621621.799154627)</data>
+</node>
+<node id="5473026041">
+  <data key="d3">14.6649308</data>
+  <data key="d4">121.0703392</data>
+  <data key="d5">5473026041</data>
+  <data key="d6">292193.05726879684</data>
+  <data key="d7">1622152.5561465237</data>
+  <data key="d8">POINT (292193.0572687968 1622152.556146524)</data>
+</node>
+<node id="6281948754">
+  <data key="d3">14.6653531</data>
+  <data key="d4">121.0699785</data>
+  <data key="d5">6281948754</data>
+  <data key="d6">292154.5989285778</data>
+  <data key="d7">1622199.6177771583</data>
+  <data key="d8">POINT (292154.5989285778 1622199.617777158)</data>
+</node>
+<node id="321699458">
+  <data key="d3">14.6482737</data>
+  <data key="d4">121.073046</data>
+  <data key="d5">321699458</data>
+  <data key="d6">292468.96048521635</data>
+  <data key="d7">1620306.861447183</data>
+  <data key="d8">POINT (292468.9604852163 1620306.861447183)</data>
+</node>
+<node id="6281948837">
+  <data key="d3">14.6677527</data>
+  <data key="d4">121.0738506</data>
+  <data key="d5">6281948837</data>
+  <data key="d6">292573.98720788833</data>
+  <data key="d7">1622461.593039378</data>
+  <data key="d8">POINT (292573.9872078883 1622461.593039378)</data>
+</node>
+<node id="6281948838">
+  <data key="d3">14.6675021</data>
+  <data key="d4">121.07401</data>
+  <data key="d5">6281948838</data>
+  <data key="d6">292590.9224634946</data>
+  <data key="d7">1622433.7163979362</data>
+  <data key="d8">POINT (292590.9224634946 1622433.716397936)</data>
+</node>
+<node id="949321476">
+  <data key="d3">14.6591148</data>
+  <data key="d4">121.0605738</data>
+  <data key="d5">949321476</data>
+  <data key="d6">291135.54439733084</data>
+  <data key="d7">1621517.9718925462</data>
+  <data key="d8">POINT (291135.5443973308 1621517.971892546)</data>
+</node>
+<node id="1350934362">
+  <data key="d3">14.6574092</data>
+  <data key="d4">121.0744931</data>
+  <data key="d5">1350934362</data>
+  <data key="d6">292633.46034878533</data>
+  <data key="d7">1621316.4329925035</data>
+  <data key="d8">POINT (292633.4603487853 1621316.432992504)</data>
+</node>
+<node id="5473025897">
+  <data key="d3">14.664439</data>
+  <data key="d4">121.0714223</data>
+  <data key="d5">5473025897</data>
+  <data key="d6">292309.2720665919</data>
+  <data key="d7">1622097.140463639</data>
+  <data key="d8">POINT (292309.2720665919 1622097.140463639)</data>
+</node>
+<node id="5473025914">
+  <data key="d3">14.6643314</data>
+  <data key="d4">121.0722128</data>
+  <data key="d5">5473025914</data>
+  <data key="d6">292394.3286644503</data>
+  <data key="d7">1622084.5080714256</data>
+  <data key="d8">POINT (292394.3286644503 1622084.508071426)</data>
+</node>
+<node id="5292875721">
+  <data key="d3">14.6472304</data>
+  <data key="d4">121.0521082</data>
+  <data key="d5">5292875721</data>
+  <data key="d6">290212.2283387204</data>
+  <data key="d7">1620210.709428143</data>
+  <data key="d8">POINT (290212.2283387204 1620210.709428143)</data>
+</node>
+<node id="5473026038">
+  <data key="d2">motorway_junction</data>
+  <data key="d3">14.6645867</data>
+  <data key="d4">121.0714547</data>
+  <data key="d5">5473026038</data>
+  <data key="d6">292312.90173962445</data>
+  <data key="d7">1622113.4546351936</data>
+  <data key="d8">POINT (292312.9017396244 1622113.454635194)</data>
+</node>
+<edge id="0" source="5473026064" target="5473026085">
+  <data key="d9">LINESTRING (292312.1632133606 1622140.562611097, 292298.9304028614 1622147.791133602, 292295.9612807871 1622149.564942043, 292290.1955890988 1622153.13322192, 292284.9019147834 1622156.465084009, 292281.324319496 1622158.897001644, 292277.3738331722 1622161.819022163, 292273.2092155268 1622164.897799244, 292269.6766945457 1622167.561729637, 292266.4769000091 1622170.078959986, 292263.1202340694 1622173.150850001, 292260.7168623494 1622175.57275886, 292258.4872689 1622178.159182665, 292256.5733853573 1622181.13023971, 292255.6162865398 1622183.860743163, 292254.8593233912 1622187.319924535, 292254.5576580555 1622189.845643262, 292254.9064090401 1622192.841672236, 292255.7375699662 1622195.556926766, 292256.790316982 1622198.989609811, 292261.1001751398 1622210.417681392)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">100.21900000000001</data>
+  <data key="d13">True</data>
+  <data key="d14">568988341</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5473026064" target="1655330495">
+  <data key="d9">LINESTRING (292312.1632133606 1622140.562611097, 292294.9783227019 1622142.944531527, 292279.3018384021 1622149.131521849, 292271.2065173456 1622152.398742824, 292263.8576254663 1622156.024794359, 292259.3076616924 1622158.133013752, 292255.9040512352 1622159.490008126, 292252.8746534146 1622160.511819093, 292250.5369862462 1622160.531753029, 292248.4620302718 1622159.774796742, 292246.9001043047 1622158.537609211, 292245.274108384 1622157.367366706, 292243.9404992728 1622155.110120638, 292243.2004244325 1622152.969543942, 292242.737906229 1622149.266233498, 292243.1307540151 1622147.326257925, 292243.5634842315 1622145.009683598, 292244.2845134224 1622143.653430369, 292246.3963802784 1622139.894967737, 292248.6930817165 1622136.334125013)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">94.61999999999999</data>
+  <data key="d18">U-Turn Slot</data>
+  <data key="d13">True</data>
+  <data key="d14">[670821747, 670821748, 158011980]</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5473026085" target="33452218">
+  <data key="d9">LINESTRING (292261.1001751398 1622210.417681392, 292286.0612681051 1622227.999665711, 292290.3123477973 1622231.272282784, 292322.0981242583 1622255.779027018)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">9</data>
+  <data key="d12">76.096</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">569325548</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832233083" target="5464860633">
+  <data key="d9">LINESTRING (292590.9212531827 1620782.774684561, 292589.698132418 1620494.549714955)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">289.621</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="5832233083" target="5464860633">
+  <data key="d9">LINESTRING (292590.9212531827 1620782.774684561, 292591.1551148876 1620631.661038605, 292589.698132418 1620494.549714955)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">289.626</data>
+  <data key="d13">True</data>
+  <data key="d14">[567871020, 616937678]</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832233083" target="5832237786">
+  <data key="d9">LINESTRING (292590.9212531827 1620782.774684561, 292592.3799925402 1620879.537931485)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">97.242</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832233084" target="5464860633">
+  <data key="d9">LINESTRING (292588.6681169922 1620313.877446353, 292589.698132418 1620494.549714955)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">181.549</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832233084" target="321699458">
+  <data key="d9">LINESTRING (292588.6681169922 1620313.877446353, 292586.0284316931 1620313.877759839, 292551.0441884071 1620313.843279617, 292514.3985577489 1620311.023182984, 292488.1797545684 1620310.427310143, 292468.9604852163 1620306.861447183)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">119.981</data>
+  <data key="d18">Carlos P. Garcia</data>
+  <data key="d13">True</data>
+  <data key="d14">[481337809, 616937686]</data>
+  <data key="d15">3</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="4014395574" target="5593633283">
+  <data key="d9">LINESTRING (291550.2985385369 1621794.590983711, 291539.0642086136 1621786.077370554)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">14.108</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619394</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="33452218" target="6281948838">
+  <data key="d9">LINESTRING (292322.0981242583 1622255.779027018, 292365.7085045333 1622283.549210912, 292426.3577780972 1622322.174290267, 292479.8766918977 1622358.480958387, 292590.9224634946 1622433.716397936)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">9</data>
+  <data key="d12">322.573</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">569325548</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5404836121" target="5286795627">
+  <data key="d9">LINESTRING (289907.0518936205 1620356.935538971, 289917.4609019081 1620354.544039969, 289933.1602201269 1620352.162315942, 289955.206136514 1620349.836613899, 289967.1423189393 1620349.623163753, 289986.8241307604 1620350.527148549, 289996.433494647 1620351.617467092, 290018.7757864242 1620354.933212551, 290034.1087555309 1620358.807309291, 290046.3839276436 1620362.929066584, 290056.4039888624 1620366.671844217, 290070.6208598549 1620372.315149943, 290079.4199634489 1620376.909502243, 290088.3198348554 1620381.945651938)</data>
+  <data key="d10">trunk</data>
+  <data key="d21">roundabout</data>
+  <data key="d11">10</data>
+  <data key="d12">187.337</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Elliptical Road</data>
+  <data key="d13">True</data>
+  <data key="d14">[85238992, 547154521]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5404836122" target="5404836121">
+  <data key="d9">LINESTRING (289783.7936943197 1620418.288177039, 289799.8567715083 1620406.861841232, 289814.5829899418 1620397.837416185, 289824.8786121265 1620392.292880662, 289836.0864648757 1620386.331027063, 289842.7792395598 1620382.798459165, 289849.4197689056 1620379.454475061, 289865.2603692692 1620372.213266936, 289877.5616144447 1620366.850676057, 289885.8197150105 1620363.669833261, 289896.2819227048 1620359.949879254, 289907.0518936205 1620356.935538971)</data>
+  <data key="d10">trunk</data>
+  <data key="d21">roundabout</data>
+  <data key="d11">10</data>
+  <data key="d12">138.316</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Elliptical Road</data>
+  <data key="d13">True</data>
+  <data key="d14">[398689858, 398689859, 547155060]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1425125658" target="767059625">
+  <data key="d9">LINESTRING (290326.2164377548 1620023.302619138, 290317.9468118984 1620036.443264695)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">15.573</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">61450521</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="1425125658" target="1425125657">
+  <data key="d9">LINESTRING (290326.2164377548 1620023.302619138, 290315.6999058095 1620016.963351076)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">12.283</data>
+  <data key="d13">True</data>
+  <data key="d14">129112452</data>
+  <data key="d15">3</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="24265131" target="29025724">
+  <data key="d9">LINESTRING (290900.4402374268 1621053.457082473, 290900.6747925223 1621043.11895669, 290901.0487820072 1621033.963751011)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">19.598</data>
+  <data key="d18">Carlos P. Garcia Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">[4180002, 244415606]</data>
+  <data key="d15">2</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="24265131" target="5475576580">
+  <data key="d9">LINESTRING (290900.4402374268 1621053.457082473, 290881.2493273792 1621053.179022335, 290709.4273891583 1621050.923992989, 290687.3528371594 1621051.09136676, 290668.433986509 1621051.132066545, 290655.4914898829 1621052.051051162, 290646.94190919 1621052.633524511, 290636.9763425678 1621053.936417729, 290629.9216415659 1621055.457780829, 290624.4507022331 1621056.976611341, 290620.7485701209 1621058.712649387, 290616.7334443905 1621060.384977008, 290612.2133685534 1621063.478156795, 290609.4552234857 1621067.242329346, 290607.4408738698 1621072.305963624, 290606.186040852 1621075.481766202, 290606.0290600597 1621081.038508316, 290607.1453496577 1621085.566194593, 290608.7973539192 1621089.746217594, 290613.1613247868 1621094.821469807)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">325.095</data>
+  <data key="d19">40.0</data>
+  <data key="d18">University Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[29251656, 5019395]</data>
+  <data key="d20">175</data>
+  <data key="d15">3</data>
+  <data key="d16">40</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1832657401" target="2123224262">
+  <data key="d9">LINESTRING (292810.3807419861 1621570.396206623, 292812.0305031636 1621568.02504037, 292814.3755619684 1621566.33407987, 292817.1480070038 1621565.49159865, 292820.047043626 1621565.59975131, 292822.7493906968 1621566.650219544, 292824.9523723439 1621568.523845847, 292826.4171977611 1621571.012398479, 292826.9691493467 1621573.840702732, 292826.5625021021 1621576.699288323)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">26.068999999999996</data>
+  <data key="d13">True</data>
+  <data key="d14">568807400</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1832657401" target="26082601">
+  <data key="d9">LINESTRING (292810.3807419861 1621570.396206623, 292811.8586682602 1621559.217653238, 292812.0253621823 1621547.142802781, 292809.200244565 1621536.72014522, 292804.8612697768 1621528.180577419, 292795.0460350145 1621515.460203841, 292728.3582112743 1621457.342139865, 292629.0297807885 1621369.323814451, 292620.0801457515 1621358.322486761, 292613.1711591699 1621346.573416937, 292609.0793950997 1621337.976436326, 292607.9417058819 1621332.154122026)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">324.90899999999993</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">569325553</data>
+  <data key="d20">129</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5593633283" target="5593633286">
+  <data key="d9">LINESTRING (291539.0642086136 1621786.077370554, 291526.8499186428 1621783.913233361, 291518.7198486243 1621780.607512874, 291465.6022084136 1621747.464186162, 291456.1174109587 1621740.706269709, 291444.2077141484 1621731.335287172, 291431.1312918931 1621715.301209026)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">131.355</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">585294583</data>
+  <data key="d15">1</data>
+  <data key="d16">60</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="1" source="5593633283" target="5593633286">
+  <data key="d9">LINESTRING (291539.0642086136 1621786.077370554, 291462.7036299977 1621736.079454083, 291431.1312918931 1621715.301209026)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">129.131</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619393</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5593633286" target="949321476">
+  <data key="d9">LINESTRING (291431.1312918931 1621715.301209026, 291382.9296611196 1621680.046525002, 291306.5770187654 1621631.055995757, 291250.7809066883 1621594.704579606, 291220.615592199 1621574.722362772, 291205.9738966623 1621564.644489621, 291135.5443973308 1621517.971892546)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">355.66600000000005</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619392</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286818313" target="1202895299">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (290954.7995323895 1621374.351063644, 290948.2099251577 1621369.79284596, 290766.1311745887 1621248.018804347, 290756.8687786011 1621247.135520082)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">236.471</data>
+  <data key="d18">U-Turn Slot</data>
+  <data key="d13">True</data>
+  <data key="d14">104238142</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286822431" target="5286822435">
+  <data key="d9">LINESTRING (290950.1269823918 1621393.580453312, 290891.2237751134 1621366.917429128, 290829.174574897 1621323.947356964, 290796.5110087126 1621289.135755312)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">187.985</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">547158016</data>
+  <data key="d20">170</data>
+  <data key="d15">1</data>
+  <data key="d16">60</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="1" source="5286822431" target="5286822435">
+  <data key="d9">LINESTRING (290950.1269823918 1621393.580453312, 290896.8055057986 1621355.714507343, 290836.9874730926 1621315.37016978, 290796.5110087126 1621289.135755312)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">185.891</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619391</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286822435" target="5286775739">
+  <data key="d9">LINESTRING (290796.5110087126 1621289.135755312, 290774.0655252024 1621274.930862467, 290669.7016904348 1621205.04538303, 290385.9073899863 1621013.664643456)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">494.72400000000005</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">5019396</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="34128519" target="1684834992">
+  <data key="d9">LINESTRING (292607.5702073907 1621949.363884129, 292620.1963141541 1621959.437514442)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">16.169</data>
+  <data key="d13">False</data>
+  <data key="d14">149993682</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="34128519" target="1832657401">
+  <data key="d9">LINESTRING (292607.5702073907 1621949.363884129, 292642.8956343611 1621903.679908112, 292675.1765137076 1621859.759331414, 292679.6469423976 1621853.35811481, 292683.7857711627 1621847.236380622, 292687.1405429734 1621841.397977974, 292690.3255880023 1621835.870879228, 292694.8313442571 1621827.289285034, 292707.0417372466 1621801.157237007, 292729.666381899 1621751.774645514, 292761.2533983192 1621683.226339496, 292810.3807419861 1621570.396206623)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">433.411</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">569325553</data>
+  <data key="d20">129</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5499179726" target="6281948754">
+  <data key="d9">LINESTRING (292213.0768918158 1622237.486271073, 292154.5989285778 1622199.617777158)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">69.7</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">572401161</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5499179726" target="1800207443">
+  <data key="d9">LINESTRING (292213.0768918158 1622237.486271073, 292201.5659298693 1622240.694122285, 292198.9053618024 1622242.011589388, 292196.4567419046 1622244.179364422, 292193.2864269684 1622248.887509658, 292189.9440227863 1622254.891896454, 292182.0077802173 1622269.224232983)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">47.203</data>
+  <data key="d18">Luzon Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">22952883</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832237785" target="5832237786">
+  <data key="d9">LINESTRING (292592.5900499805 1620894.099525717, 292592.3799925402 1620879.537931485)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">14.634</data>
+  <data key="d13">True</data>
+  <data key="d14">616937681</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="5832237785" target="5832237786">
+  <data key="d9">LINESTRING (292592.5900499805 1620894.099525717, 292592.3799925402 1620879.537931485)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">14.634</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832237785" target="21834704">
+  <data key="d9">LINESTRING (292592.5900499805 1620894.099525717, 292608.6744382785 1620893.962711509)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">16.061</data>
+  <data key="d13">False</data>
+  <data key="d14">657270901</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832237786" target="5832233083">
+  <data key="d9">LINESTRING (292592.3799925402 1620879.537931485, 292590.9212531827 1620782.774684561)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">97.242</data>
+  <data key="d13">True</data>
+  <data key="d14">616937681</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="5832237786" target="5832233083">
+  <data key="d9">LINESTRING (292592.3799925402 1620879.537931485, 292590.9212531827 1620782.774684561)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">97.242</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5832237786" target="5832237785">
+  <data key="d9">LINESTRING (292592.3799925402 1620879.537931485, 292592.5900499805 1620894.099525717)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">14.634</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="219738885" target="306542754">
+  <data key="d9">LINESTRING (290256.2276698847 1620879.303299203, 290386.2345520227 1620963.995225077, 290423.9357509505 1620981.853442466, 290439.4315452595 1620990.938670164, 290454.5644596909 1621000.42542008, 290503.7554186461 1621032.626817152, 290654.1029091943 1621137.518632654)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">5</data>
+  <data key="d12">475.028</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689850</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="219738885" target="5475576579">
+  <data key="d9">LINESTRING (290256.2276698847 1620879.303299203, 290267.6428206184 1620879.924433592, 290404.4842007327 1620960.042515869, 290424.7171695583 1620971.233921662)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">193.13699999999997</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[569341843, 585163045, 569341838]</data>
+  <data key="d20">170</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1723253583" target="1800207443">
+  <data key="d9">LINESTRING (292138.2933167885 1622248.227894931, 292143.8093928122 1622245.713014334, 292147.456593083 1622245.128574157, 292155.5980563387 1622244.749252151, 292161.1284738003 1622245.177925828, 292167.0562402005 1622246.720921011, 292169.8148713614 1622248.058558419, 292173.1268708863 1622249.85626566, 292175.5746055947 1622251.373618876, 292178.1357301333 1622253.553991183, 292180.258858238 1622256.169691148, 292181.4647084337 1622258.605086827, 292182.2799952769 1622261.984461395, 292182.0077802173 1622269.224232983)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">59.503</data>
+  <data key="d18">Luzon Avenue U-Turn</data>
+  <data key="d13">True</data>
+  <data key="d14">225878672</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="1723253583" target="6281948754">
+  <data key="d9">LINESTRING (292138.2933167885 1622248.227894931, 292142.685678217 1622240.277914303, 292144.8473235059 1622236.043157805, 292151.3460480898 1622224.954472439, 292153.4908716397 1622221.273182547, 292156.7753402932 1622216.055001677, 292157.7741116805 1622211.896566679, 292157.6447768469 1622208.101882068, 292154.5989285778 1622199.617777158)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">54.398999999999994</data>
+  <data key="d13">True</data>
+  <data key="d14">[168823488, 670821723, 670821724]</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="1723253595" target="5499179726">
+  <data key="d9">LINESTRING (292306.5405708033 1622283.489199544, 292213.0768918158 1622237.486271073)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">104.152</data>
+  <data key="d13">True</data>
+  <data key="d14">670821741</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="1723253595" target="5475588692">
+  <data key="d22">no</data>
+  <data key="d23">yes</data>
+  <data key="d9">LINESTRING (292306.5405708033 1622283.489199544, 292250.6915077827 1622236.767082829, 292172.0046758276 1622180.191554619, 291815.4890577411 1621943.082296326, 291711.5853824946 1621875.889395541, 291697.3910568703 1621875.247144956)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">2</data>
+  <data key="d12">736.254</data>
+  <data key="d19">60.0</data>
+  <data key="d18">['Tandang Sora-Commonwealth Overpass', 'Commonwealth Avenue']</data>
+  <data key="d13">True</data>
+  <data key="d14">[5019397, 569343206, 5019391]</data>
+  <data key="d20">170</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1723253595" target="1112906972">
+  <data key="d9">LINESTRING (292306.5405708033 1622283.489199544, 292246.7552582035 1622243.883167083, 292193.0728726041 1622208.69603796, 292177.5694335217 1622198.536500823, 292035.0473190485 1622105.101408558, 291954.8260957253 1622053.154268686)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">5</data>
+  <data key="d12">420.629</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670821759</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="668373971" target="2141118656">
+  <data key="d9">LINESTRING (292746.3059988512 1622583.151451817, 292721.7687808874 1622555.793840365, 292679.9601028616 1622525.683851642, 292679.1749828876 1622520.777048947, 292679.4964379359 1622518.040909901, 292680.8468356007 1622515.948930986, 292682.9731346039 1622513.88354729, 292688.3580557757 1622513.682784292, 292706.1663298124 1622525.084548063, 292722.2046232442 1622532.318283746, 292737.146488485 1622536.042241847)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">161.119</data>
+  <data key="d18">U-Turn</data>
+  <data key="d13">True</data>
+  <data key="d14">204094914</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="668373971" target="6281948837">
+  <data key="d9">LINESTRING (292746.3059988512 1622583.151451817, 292714.1631473245 1622562.155352198, 292657.7509144696 1622519.974503498, 292573.9872078883 1622461.593039378)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">7</data>
+  <data key="d12">211.077</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670821760</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1161442412" target="1161442425">
+  <data key="d9">LINESTRING (292636.6884565781 1620981.569506378, 292639.9483993911 1621005.102140051, 292640.7430053656 1621017.456547574, 292639.451175851 1621077.115417689, 292637.5757285148 1621131.489517314)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">150.94</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">25887508</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1161442412" target="1161442698">
+  <data key="d24">no</data>
+  <data key="d9">LINESTRING (292636.6884565781 1620981.569506378, 292633.5170366273 1620993.780583139, 292632.2495459297 1621022.099208693, 292630.6156690965 1621028.874674706, 292628.2583859877 1621032.933960086, 292624.0975585798 1621033.954260455, 292617.9406890615 1621034.637415248, 292613.639793853 1621030.590498174, 292609.1124883185 1621017.659189063)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">83.00399999999999</data>
+  <data key="d13">True</data>
+  <data key="d14">100466601</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1161442425" target="1350934362">
+  <data key="d9">LINESTRING (292637.5757285148 1621131.489517314, 292635.2692287293 1621246.643952625, 292634.1908828423 1621292.124962932, 292633.5020380213 1621307.402455165, 292633.4603487853 1621316.432992504)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">185.888</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">25887508</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="2123224262" target="5475436201">
+  <data key="d9">LINESTRING (292826.5625021021 1621576.699288323, 292808.0397074964 1621629.58810839, 292715.582075824 1621827.389421675)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">275.413</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">216702187</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="2123224262" target="1832657401">
+  <data key="d9">LINESTRING (292826.5625021021 1621576.699288323, 292825.2802412771 1621579.211192622, 292823.2391756107 1621581.176227796, 292820.6853882454 1621582.393107094, 292817.8655265076 1621582.726937232, 292815.0809486408 1621582.141957236, 292812.6445383653 1621580.690839157, 292810.8055770305 1621578.54852596, 292809.7597639988 1621575.923615285, 292809.606595405 1621573.114053811, 292810.3807419861 1621570.396206623)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">28.342000000000006</data>
+  <data key="d13">True</data>
+  <data key="d14">568807400</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5499282651" target="4014395574">
+  <data key="d9">LINESTRING (291592.6461614392 1621823.145458668, 291550.2985385369 1621794.590983711)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">51.104</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619394</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5499282651" target="1802319218">
+  <data key="d9">LINESTRING (291592.6461614392 1621823.145458668, 291543.5716422388 1621820.555135421, 291537.0592559463 1621819.957924354, 291528.7280930473 1621815.812870651)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">64.907</data>
+  <data key="d18">Central Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">572412470</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1161442585" target="1161442698">
+  <data key="d9">LINESTRING (292609.3819039185 1621054.397343015, 292609.1124883185 1621017.659189063)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">36.917</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">617654364</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1161442585" target="1161442425">
+  <data key="d9">LINESTRING (292609.3819039185 1621054.397343015, 292614.3819693518 1621045.645554132, 292618.2610416411 1621043.166883774, 292623.1057004918 1621041.476781626, 292627.0385099223 1621042.782364008, 292629.853034405 1621045.613555227, 292631.2368096964 1621051.234581977, 292631.5154736684 1621090.329796894, 292632.8914821016 1621110.237610072, 292637.5757285148 1621131.489517314)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">114.99600000000001</data>
+  <data key="d13">True</data>
+  <data key="d14">100466625</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1802319218" target="4014395574">
+  <data key="d9">LINESTRING (291528.7280930473 1621815.812870651, 291537.0912913104 1621813.627628594, 291547.2503388238 1621811.050767391, 291549.8820611776 1621806.358204511, 291550.7061984024 1621800.685121831, 291550.2985385369 1621794.590983711)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">36.397999999999996</data>
+  <data key="d18">Central Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[169059372, 585294582]</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1161442698" target="21834704">
+  <data key="d9">LINESTRING (292609.1124883185 1621017.659189063, 292608.6744382785 1620893.962711509)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">124.295</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">617654364</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="34018707" target="321702674">
+  <data key="d9">LINESTRING (292622.73001082 1620220.630141746, 292616.1343491356 1620238.160047475, 292617.7009627926 1620286.827785891, 292617.3026139176 1620299.535390756, 292612.5293998355 1620307.112186754, 292604.9629946089 1620313.108106574)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">99.153</data>
+  <data key="d13">True</data>
+  <data key="d14">5056066</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="34018707" target="32520021">
+  <data key="d9">LINESTRING (292622.73001082 1620220.630141746, 292624.057724225 1620258.941766973, 292625.4914969747 1620286.916481507, 292626.2983473316 1620309.584658273, 292625.3271528362 1620336.019458919, 292625.3433353107 1620387.345248401, 292625.5236319869 1620430.093190189)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">210.56799999999998</data>
+  <data key="d19">80.0</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[485073594, 333178453]</data>
+  <data key="d20">['11', '129']</data>
+  <data key="d15">4</data>
+  <data key="d16">80</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="29025724" target="321699458">
+  <data key="d9">LINESTRING (290901.0487820072 1621033.963751011, 290901.4416682236 1621019.474328915, 290915.7991820596 1620947.363603724, 290918.227608676 1620936.552940438, 290931.9519840387 1620869.748525344, 290941.0781754432 1620818.288521701, 290948.888802714 1620774.23222771, 290952.9763231345 1620753.347904139, 290962.0283325661 1620707.045548345, 290975.7247795434 1620636.943627846, 290994.3900046119 1620533.101675098, 291014.0048330512 1620435.692327817, 291035.1136028338 1620320.220783472, 291040.3474561642 1620294.778355431, 291043.6019675104 1620278.50487145, 291047.2136594476 1620267.451711003, 291052.1792229435 1620255.966427872, 291062.264513379 1620237.155545134, 291074.2016100944 1620224.470707708, 291093.3904798066 1620211.85657023, 291102.740128828 1620206.530988216, 291114.4112862269 1620200.532608431, 291118.995121575 1620198.567789065, 291123.3868332252 1620196.814878921, 291127.8027456062 1620195.37162392, 291133.1254402861 1620194.130868771, 291138.3756573205 1620193.233796327, 291144.4265310827 1620192.728263265, 291152.6014128749 1620192.392677113, 291164.1044813713 1620191.929002491, 291184.5633390985 1620191.731729313, 291193.9178454865 1620192.005782074, 291205.965274613 1620192.201456286, 291220.2265917605 1620192.997910902, 291234.4660032872 1620195.011873457, 291244.5573923081 1620197.039208467, 291315.9364144205 1620214.533213998, 291335.1314859512 1620219.00585967, 291457.7259784745 1620250.968729897, 291491.0457508169 1620254.136626726, 291525.0783199234 1620251.200857459, 291533.2977773874 1620251.042079059, 291564.4117694414 1620250.776191668, 291604.7557650474 1620255.134730176, 291627.7396980816 1620259.187899357, 291643.5826593373 1620263.523413701, 291677.8469311699 1620278.889785155, 291688.9235291582 1620282.745910488, 291697.8927683393 1620283.333301467, 291707.758665572 1620284.200766494, 291722.5474002134 1620283.687160472, 291742.2196652657 1620279.712336644, 291756.1831065151 1620274.657489106, 291806.1552623612 1620249.519553962, 291834.3385259226 1620235.357444548, 291859.0068878545 1620223.427584652, 291889.5723863303 1620209.389084382, 291911.2493118703 1620200.428477198, 291929.1545115738 1620196.435691851, 291950.8825964929 1620194.734266139, 292020.162538587 1620193.590167692, 292028.8346737713 1620193.449832342, 292068.6571907848 1620192.258238924, 292122.2046011094 1620192.144920137, 292162.9699820579 1620195.394146765, 292195.7224762643 1620199.0215585, 292210.8374937839 1620201.393811297, 292227.9761104315 1620204.800146358, 292250.3983049478 1620211.226890593, 292259.9072749767 1620214.465831956, 292272.1273693265 1620222.29638315, 292292.0861006137 1620235.505717854, 292307.2456725801 1620245.646266786, 292320.9151302181 1620254.139548839, 292354.2169253583 1620275.479801583, 292367.0239395718 1620282.652478161, 292385.6578547583 1620290.860071795, 292395.1847015156 1620294.939954121, 292402.56351666 1620297.289629281, 292414.1938591478 1620300.399905011, 292436.205641808 1620304.19649077, 292455.7979840431 1620306.021729385, 292468.9604852163 1620306.861447183)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">2294.1590000000006</data>
+  <data key="d18">Carlos P. Garcia Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">[669286592, 669286593, 244415606, 657268860, 669286590, 669286591]</data>
+  <data key="d15">2</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="29025724" target="24265131">
+  <data key="d9">LINESTRING (290901.0487820072 1621033.963751011, 290900.6747925223 1621043.11895669, 290900.4402374268 1621053.457082473)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">19.598</data>
+  <data key="d18">Carlos P. Garcia Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">[4180002, 244415606]</data>
+  <data key="d15">2</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="32519675" target="321702674">
+  <data key="d9">LINESTRING (292607.3559081228 1620429.805011602, 292606.8182221405 1620403.316636834, 292605.7342033166 1620346.787649877, 292605.3528071992 1620336.145022529, 292604.9629946089 1620313.108106574)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">117.288</data>
+  <data key="d19">80.0</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">5020042</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">80</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1651090988" target="5473026064">
+  <data key="d9">LINESTRING (292395.66928581 1622100.233099905, 292374.6605954408 1622115.351796312, 292364.1240576707 1622121.660921115, 292343.3518449893 1622130.392306965, 292312.1632133606 1622140.562611097)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">93.47900000000001</data>
+  <data key="d13">True</data>
+  <data key="d14">572391289</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="315795077" target="26504623">
+  <data key="d9">LINESTRING (290202.8895776116 1620206.008999858, 290215.7526909871 1620184.528890501, 290223.0871603366 1620172.912351922, 290254.6999470604 1620122.852179956, 290268.3079911352 1620100.281186802, 290275.4785308935 1620088.389417557, 290301.2353585855 1620041.434042956, 290307.6322247249 1620029.781335459)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">205.715</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">[675768339, 675761299, 4705604]</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5475436201" target="1684834992">
+  <data key="d9">LINESTRING (292715.582075824 1621827.389421675, 292716.2137462116 1621834.52187647, 292712.077365331 1621843.465515006, 292706.6494376434 1621853.825574684, 292702.3913102879 1621861.121357827, 292696.5218430858 1621870.234673868, 292689.0087748141 1621882.438435153, 292682.7557359086 1621892.053007516, 292675.5404043457 1621902.527882882, 292670.7795940581 1621908.986904632, 292665.527759655 1621915.981293167, 292659.6025185974 1621923.601132091, 292637.7894746906 1621950.578522862, 292620.1963141541 1621959.437514442)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">167.75500000000002</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">216702187</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="5475436201" target="1684834992">
+  <data key="d9">LINESTRING (292715.582075824 1621827.389421675, 292707.9557101907 1621830.07703291, 292690.3418958884 1621860.582015687, 292687.5710616955 1621865.408407619, 292684.2129046686 1621870.848449066, 292680.6304983492 1621876.522793594, 292676.1732951946 1621883.211624621, 292671.0837032106 1621890.28209527, 292666.7060025065 1621896.184537669, 292662.4881063025 1621901.875359711, 292657.9283089741 1621907.901084212, 292654.0499660254 1621912.980366713, 292649.6907119626 1621918.517465036, 292646.2781807956 1621922.63000813, 292630.065421886 1621944.314273593, 292620.1963141541 1621959.437514442)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">165.066</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">[568807397, 568807399]</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="767059625" target="26504623">
+  <data key="d9">LINESTRING (290317.9468118984 1620036.443264695, 290307.6322247249 1620029.781335459)</data>
+  <data key="d10">secondary_link</data>
+  <data key="d11">1</data>
+  <data key="d12">12.284</data>
+  <data key="d13">False</data>
+  <data key="d14">85238918</data>
+  <data key="d15">1</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="767059625" target="5292875721">
+  <data key="d9">LINESTRING (290317.9468118984 1620036.443264695, 290312.1550088271 1620047.039448156, 290282.4318815273 1620101.366016829, 290279.0215708538 1620106.98393332, 290265.0828684148 1620129.94509132, 290233.0151273821 1620178.470912168, 290224.9848414257 1620190.613558295, 290212.2283387204 1620210.709428143)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">204.587</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">61450521</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="1655330495" target="5473026038">
+  <data key="d9">LINESTRING (292248.6930817165 1622136.334125013, 292253.2647832336 1622134.247851605, 292258.4904103677 1622131.779744591, 292265.2103263714 1622128.933705473, 292270.5038938462 1622126.852347102, 292276.1852783714 1622124.767683444, 292282.6944614966 1622122.476767861, 292288.0348957693 1622120.837671261, 292294.1703388537 1622118.937270368, 292300.7052207419 1622117.133063769, 292312.9017396244 1622113.454635194)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">68.217</data>
+  <data key="d13">True</data>
+  <data key="d14">156572893</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="5475456844" target="34128519">
+  <data key="d9">LINESTRING (292442.4585774148 1622055.989299698, 292460.6054809107 1622046.383994583, 292539.307351792 1622006.084909354, 292546.6870383582 1622002.270561506, 292553.2178494491 1621998.717971002, 292560.7767194093 1621994.437313197, 292566.9507157526 1621990.732835002, 292572.1840959835 1621986.63797548, 292578.2950005684 1621981.849529623, 292585.9065872073 1621974.901427538, 292590.8205002785 1621969.979311749, 292595.6636565331 1621964.338482965, 292601.9207504875 1621956.472338634, 292607.5702073907 1621949.363884129)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">198.894</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">670821765</data>
+  <data key="d20">129</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="32520021" target="32519675">
+  <data key="d9">LINESTRING (292625.5236319869 1620430.093190189, 292607.3559081228 1620429.805011602)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">18.143</data>
+  <data key="d19">40.0</data>
+  <data key="d13">True</data>
+  <data key="d14">51189198</data>
+  <data key="d15">2</data>
+  <data key="d16">40</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="32520021" target="1161442412">
+  <data key="d9">LINESTRING (292625.5236319869 1620430.093190189, 292625.2239903817 1620449.34019518, 292625.6939625647 1620481.804996657, 292625.8199950209 1620490.291848705, 292625.6170385106 1620537.381079064, 292625.2976237623 1620611.318374346, 292625.2459433424 1620740.806702552, 292625.0035256018 1620807.317803944, 292624.7973456949 1620817.279314118, 292626.3288078361 1620877.002698314, 292627.2125240251 1620892.233610894, 292635.7575245887 1620973.45468847, 292636.6884565781 1620981.569506378)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">554.6959999999999</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">25887508</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5515806586" target="6118136437">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (292041.6022897612 1622045.06533504, 292020.1462280266 1622048.147885958)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">21.647</data>
+  <data key="d18">Tandang Sora - Commonwealth Crossing</data>
+  <data key="d13">False</data>
+  <data key="d14">652656129</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="5515806586" target="5473026041">
+  <data key="d9">LINESTRING (292041.6022897612 1622045.06533504, 292106.4538454595 1622089.939629301, 292193.0572687968 1622152.556146524)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">185.862</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">572391290</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5515806586" target="5473025897">
+  <data key="d9">LINESTRING (292041.6022897612 1622045.06533504, 292063.636101486 1622044.036231124, 292071.2295480688 1622043.816496993, 292080.8910736114 1622043.545917589, 292090.6387806243 1622043.27460663, 292102.0917874017 1622043.365007541, 292111.204554801 1622044.438161718, 292122.9285671728 1622045.987029807, 292137.6981194574 1622049.667875864, 292147.9145957509 1622052.568655587, 292221.8074849368 1622073.750329527, 292291.1650299226 1622093.720368718, 292299.2066241425 1622095.522039394, 292305.2156885848 1622096.488924349, 292309.2720665919 1622097.140463639)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">274.54100000000005</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">False</data>
+  <data key="d14">[568988336, 670821763]</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="5464860633" target="5832233084">
+  <data key="d9">LINESTRING (292589.698132418 1620494.549714955, 292588.6681169922 1620313.877446353)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">181.549</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="5464860633" target="5832233084">
+  <data key="d9">LINESTRING (292589.698132418 1620494.549714955, 292589.2537105581 1620356.135026127, 292588.6681169922 1620313.877446353)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">181.55100000000002</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[616937680, 567871020]</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5464860633" target="5832233083">
+  <data key="d9">LINESTRING (292589.698132418 1620494.549714955, 292590.9212531827 1620782.774684561)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">289.621</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">616937688</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5383505900" target="5286822431">
+  <data key="d9">LINESTRING (291097.0301688112 1621491.819847446, 290950.1269823918 1621393.580453312)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">176.818</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619392</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475547279" target="5473026085">
+  <data key="d9">LINESTRING (292252.7945485577 1622204.180640263, 292261.1001751398 1622210.417681392)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">9</data>
+  <data key="d12">10.396</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">569325548</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475547295" target="5475469605">
+  <data key="d9">LINESTRING (292009.8054766963 1622103.889310999, 291943.2622349643 1622061.530717521)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">78.913</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">572401161</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="306542754" target="1202895298">
+  <data key="d9">LINESTRING (290654.1029091943 1621137.518632654, 290905.3146184796 1621305.21144817)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">5</data>
+  <data key="d12">302.198</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689853</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475469605" target="1112906972">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (291943.2622349643 1622061.530717521, 291954.8260957253 1622053.154268686)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">14.288</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">False</data>
+  <data key="d14">569337870</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="5475469605" target="5499282651">
+  <data key="d9">LINESTRING (291943.2622349643 1622061.530717521, 291877.9813278797 1622016.892870509, 291869.7344004783 1622011.241959404, 291864.0120768563 1622007.273718294, 291821.2721044004 1621978.113550865, 291802.3508126171 1621965.161469094, 291767.1828502696 1621940.850187564, 291592.6461614392 1621823.145458668)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">424.228</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[670938664, 670619394]</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286795626" target="5404831063">
+  <data key="d9">LINESTRING (290102.4990907426 1620390.732196908, 290107.0741966284 1620394.023856046, 290111.7711431941 1620397.701796509, 290122.9032739567 1620406.724837097, 290134.0423469529 1620416.555679722, 290143.8891568789 1620426.464044306, 290156.1252585088 1620439.826749656, 290163.4169142364 1620449.546839534, 290169.7867216939 1620458.566603012, 290177.6616280691 1620470.959781162, 290185.4757889258 1620483.807211691, 290188.6592241733 1620490.65214809, 290196.5546230715 1620509.187084176, 290201.1997984287 1620524.38575219, 290204.5609759395 1620535.611510896, 290207.7410617362 1620549.583329737, 290209.1540429208 1620561.036111659, 290210.6274860282 1620578.265108003, 290211.5768705188 1620593.440235804, 290211.9520868095 1620610.756145356, 290211.3264205324 1620628.202397091, 290210.0541434787 1620646.882597904, 290208.1343382557 1620664.185052115, 290204.8337773469 1620685.051745902, 290201.7513572723 1620698.712245083, 290198.8203561469 1620711.187322428, 290196.2881006869 1620721.168997723, 290194.3659634735 1620728.179590648, 290192.4143636563 1620735.522433719, 290188.3285259518 1620747.76398611, 290186.898286147 1620751.837713793)</data>
+  <data key="d10">trunk</data>
+  <data key="d21">roundabout</data>
+  <data key="d11">10</data>
+  <data key="d12">402.20399999999995</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Elliptical Road</data>
+  <data key="d13">True</data>
+  <data key="d14">[670619401, 547598178, 85238982, 560442495]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286795627" target="5286795634">
+  <data key="d9">LINESTRING (290088.3198348554 1620381.945651938, 290095.6951064543 1620386.353065165)</data>
+  <data key="d10">trunk</data>
+  <data key="d21">roundabout</data>
+  <data key="d11">10</data>
+  <data key="d12">8.594</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Elliptical Road</data>
+  <data key="d13">True</data>
+  <data key="d14">547154521</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286795627" target="315795077">
+  <data key="d9">LINESTRING (290088.3198348554 1620381.945651938, 290101.2662498418 1620361.405392569, 290161.5134176572 1620265.858614947, 290181.3496290429 1620233.351551868, 290192.3384188948 1620215.683369956, 290202.8895776116 1620206.008999858)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">211.04700000000003</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">547804363</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5286795628" target="315795077">
+  <data key="d9">LINESTRING (290199.8650200694 1620220.14484938, 290202.8895776116 1620206.008999858)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">14.521</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">547804362</data>
+  <data key="d15">2</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5286795628" target="5286795634">
+  <data key="d9">LINESTRING (290199.8650200694 1620220.14484938, 290183.5011272932 1620245.484106547, 290168.3482159184 1620270.060437799, 290110.7699574496 1620362.740128036, 290108.7607001005 1620365.889250412, 290095.6951064543 1620386.353065165)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">1</data>
+  <data key="d12">196.74900000000002</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">False</data>
+  <data key="d14">146448723</data>
+  <data key="d15">1</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5286795634" target="5286795626">
+  <data key="d9">LINESTRING (290095.6951064543 1620386.353065165, 290102.4990907426 1620390.732196908)</data>
+  <data key="d10">trunk</data>
+  <data key="d21">roundabout</data>
+  <data key="d11">10</data>
+  <data key="d12">8.095</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Elliptical Road</data>
+  <data key="d13">True</data>
+  <data key="d14">547598178</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286795634" target="5286795628">
+  <data key="d9">LINESTRING (290095.6951064543 1620386.353065165, 290108.7607001005 1620365.889250412, 290110.7699574496 1620362.740128036, 290168.3482159184 1620270.060437799, 290183.5011272932 1620245.484106547, 290199.8650200694 1620220.14484938)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">1</data>
+  <data key="d12">196.749</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">False</data>
+  <data key="d14">146448723</data>
+  <data key="d15">1</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="1202895298" target="1202895302">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (290905.3146184796 1621305.21144817, 290917.961250127 1621323.827497401, 290969.4833659031 1621359.163628355)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">85.084</data>
+  <data key="d18">U-Turn Slot</data>
+  <data key="d13">True</data>
+  <data key="d14">104238142</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1202895298" target="1204284628">
+  <data key="d9">LINESTRING (290905.3146184796 1621305.21144817, 290923.886128198 1621317.4577043, 291059.095211381 1621406.313262442, 291140.4868262757 1621462.331479472, 291185.9780516643 1621494.255857778, 291203.9836006018 1621507.126862708)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">5</data>
+  <data key="d12">360.754</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689852</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1202895299" target="508308004">
+  <data key="d9">LINESTRING (290756.8687786011 1621247.135520082, 290518.9413572055 1621092.178112134, 290400.5694294171 1621008.481185811, 290339.1707562519 1620961.19059011, 290227.2680507065 1620889.468050327)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">639.681</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">87754105</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1202895302" target="5286818313">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (290969.4833659031 1621359.163628355, 290970.5932728574 1621361.699405871, 290971.1810423167 1621363.653136345, 290971.7235368393 1621365.35272553, 290971.866478355 1621366.945076021, 290971.4569059762 1621369.438551197, 290970.4064079798 1621371.317798519, 290969.0807946339 1621372.524348543, 290966.586135048 1621374.349581578, 290964.8450717077 1621374.851438489, 290963.3156741171 1621374.908820234, 290960.0222436447 1621375.302258793, 290954.7995323895 1621374.351063644)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">29.764999999999997</data>
+  <data key="d18">U-Turn Slot</data>
+  <data key="d13">True</data>
+  <data key="d14">104238142</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="1202895302" target="5286818313">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (290969.4833659031 1621359.163628355, 290981.7391756684 1621367.391607857, 290984.2485308825 1621372.305749808, 290983.7943402777 1621377.134638988, 290982.1082239363 1621381.531431961, 290978.4100612358 1621384.982693174, 290974.664447771 1621385.413206992, 290969.045178615 1621383.447291589, 290954.7995323895 1621374.351063644)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">61.597</data>
+  <data key="d18">U-Turn Slot</data>
+  <data key="d13">True</data>
+  <data key="d14">547157509</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="508308004" target="17216338">
+  <data key="d9">LINESTRING (290227.2680507065 1620889.468050327, 290204.0575901136 1620875.34763873, 290188.6589617604 1620866.305969557, 290177.2186721545 1620861.512999475, 290165.1875445535 1620858.174836289, 290152.6159118002 1620857.132105545, 290141.9055682746 1620858.286671316, 290121.6386374474 1620865.709698769)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">114.828</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[398689851, 18578532]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475588690" target="5475576564">
+  <data key="d9">LINESTRING (291680.8438530995 1621827.481884727, 291729.6229187554 1621858.537940555, 291880.9867235334 1621957.562082091)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">5</data>
+  <data key="d12">238.81199999999998</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">569343205</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475588690" target="33452218">
+  <data key="d22">no</data>
+  <data key="d23">yes</data>
+  <data key="d9">LINESTRING (291680.8438530995 1621827.481884727, 291718.7269437353 1621868.170360499, 291818.0590989497 1621937.471778047, 291969.7312257127 1622034.855893947, 292176.9167818205 1622173.808583864, 292214.7085556434 1622193.848471527, 292249.6973796495 1622214.941490311, 292282.1777381072 1622234.982495971, 292322.0981242583 1622255.779027018)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">2</data>
+  <data key="d12">773.651</data>
+  <data key="d19">60.0</data>
+  <data key="d18">['Tandang Sora-Commonwealth Overpass', 'Commonwealth Avenue']</data>
+  <data key="d13">True</data>
+  <data key="d14">[29280928, 670398505, 29280934]</data>
+  <data key="d20">170</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475588692" target="6332489166">
+  <data key="d9">LINESTRING (291697.3910568703 1621875.247144956, 291608.5229885064 1621816.436196527, 291521.9567212466 1621755.979053592, 291348.6009669291 1621644.38541317)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">418.533</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[398689855, 569337871]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6118136437" target="1112906972">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (292020.1462280266 1622048.147885958, 291954.8260957253 1622053.154268686)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">65.418</data>
+  <data key="d18">Tandang Sora - Commonwealth Crossing</data>
+  <data key="d13">False</data>
+  <data key="d14">652656129</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="6118136437" target="5515806586">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (292020.1462280266 1622048.147885958, 292041.6022897612 1622045.06533504)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">21.647</data>
+  <data key="d18">Tandang Sora - Commonwealth Crossing</data>
+  <data key="d13">False</data>
+  <data key="d14">652656129</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="6118136437" target="5475547279">
+  <data key="d9">LINESTRING (292020.1462280266 1622048.147885958, 292051.6895979326 1622069.436077064, 292062.0161500046 1622076.39726584, 292089.2358300819 1622094.756591954, 292202.9905084058 1622171.516754834, 292219.9024170064 1622182.604943156, 292252.7945485577 1622204.180640263)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">9</data>
+  <data key="d12">280.284</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619395</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1684834992" target="34128519">
+  <data key="d9">LINESTRING (292620.1963141541 1621959.437514442, 292607.5702073907 1621949.363884129)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">16.169</data>
+  <data key="d13">False</data>
+  <data key="d14">149993682</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="1684834992" target="1651090988">
+  <data key="d9">LINESTRING (292620.1963141541 1621959.437514442, 292613.9842262222 1621966.263028055, 292601.5813238426 1621979.880681228, 292594.7108862172 1621986.567941801, 292588.8718414691 1621991.65286213, 292582.4846153049 1621996.886314086, 292575.7064654942 1622001.757904545, 292567.8537792423 1622006.959571182, 292560.0383459418 1622011.474806157, 292553.1778234751 1622015.528190918, 292545.2539144361 1622019.955823668, 292449.8750833442 1622070.412062078, 292395.66928581 1622100.233099905)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">266.924</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">569322627</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475576560" target="5515806586">
+  <data key="d9">LINESTRING (291917.7444520127 1621963.677755843, 292041.6022897612 1622045.06533504)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">148.277</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">572391290</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475576564" target="5475576560">
+  <data key="d9">LINESTRING (291880.9867235334 1621957.562082091, 291917.7444520127 1621963.677755843)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">37.215</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670821762</data>
+  <data key="d20">170</data>
+  <data key="d15">1</data>
+  <data key="d16">60</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="5475576564" target="6118136437">
+  <data key="d9">LINESTRING (291880.9867235334 1621957.562082091, 291964.1475838023 1622010.535251355, 291970.6476030949 1622014.740335518, 292020.1462280266 1622048.147885958)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">8</data>
+  <data key="d12">166.135</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[670619395, 569343204]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475576579" target="5475576580">
+  <data key="d9">LINESTRING (290424.7171695583 1620971.233921662, 290613.1613247868 1621094.821469807)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">225.462</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619400</data>
+  <data key="d20">170</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475576579" target="29025724">
+  <data key="d9">LINESTRING (290424.7171695583 1620971.233921662, 290527.8131892077 1620994.926717723, 290556.9681617874 1621001.238697849, 290644.9886104456 1621019.638871835, 290682.1490741975 1621026.003984057, 290711.0625093895 1621030.54756922, 290738.4507693908 1621033.13443856, 290805.847504684 1621034.990689935, 290901.0487820072 1621033.963751011)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">482.02200000000005</data>
+  <data key="d18">University Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">4588984</data>
+  <data key="d20">175</data>
+  <data key="d15">3</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5475576580" target="306542754">
+  <data key="d9">LINESTRING (290613.1613247868 1621094.821469807, 290654.1029091943 1621137.518632654)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">59.265</data>
+  <data key="d19">60.0</data>
+  <data key="d13">True</data>
+  <data key="d14">670619385</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5475576580" target="5475576560">
+  <data key="d9">LINESTRING (290613.1613247868 1621094.821469807, 290694.6914844975 1621149.155164032, 290704.6823191682 1621155.819964196, 290806.0959847279 1621223.406954319, 290813.2151580038 1621228.148728402, 291069.7861151686 1621399.150130942, 291547.5496171473 1621717.569731814, 291686.3726458881 1621812.583427861, 291917.7444520127 1621963.677755843)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">1568.2730000000001</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">569341845</data>
+  <data key="d20">170</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="321702674" target="306542783">
+  <data key="d9">LINESTRING (292604.9629946089 1620313.108106574, 292604.2304608717 1620281.442318588)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">31.827</data>
+  <data key="d19">80.0</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">333178454</data>
+  <data key="d20">11</data>
+  <data key="d15">4</data>
+  <data key="d16">80</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="321702674" target="5832233084">
+  <data key="d9">LINESTRING (292604.9629946089 1620313.108106574, 292592.4067889929 1620313.878854636, 292588.6681169922 1620313.877446353)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">16.294999999999998</data>
+  <data key="d18">Carlos P. Garcia</data>
+  <data key="d13">True</data>
+  <data key="d14">29251490</data>
+  <data key="d15">3</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5473078122" target="5475547295">
+  <data key="d9">LINESTRING (292119.4124023487 1622176.833402752, 292102.2553628776 1622172.37616705, 292088.9448183015 1622167.963581407, 292022.6372089323 1622122.880454854, 292016.2081125886 1622114.35884249, 292009.8054766963 1622103.889310999)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">134.963</data>
+  <data key="d13">True</data>
+  <data key="d14">569337866</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="5473078122" target="5475547295">
+  <data key="d9">LINESTRING (292119.4124023487 1622176.833402752, 292028.2249504403 1622116.137557064, 292009.8054766963 1622103.889310999)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">131.73</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">572401161</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5473078149" target="5473025914">
+  <data key="d23">yes</data>
+  <data key="d9">LINESTRING (292027.3378643401 1622491.762444312, 292034.7543936984 1622477.146742644, 292044.7590843594 1622461.568300272, 292114.4375614998 1622319.787863161, 292148.6926686232 1622249.843397106, 292153.1729231919 1622240.830290827, 292157.3980266376 1622233.479328349, 292160.0226151418 1622229.207424723, 292162.1690443096 1622225.714251441, 292167.6452065411 1622217.257041211, 292171.7670182895 1622211.688659955, 292176.5648654648 1622205.804652455, 292185.6051912624 1622195.867340546, 292187.7097517839 1622193.77996493, 292194.150158866 1622187.217964796, 292209.6954293856 1622173.230196655, 292211.8774788457 1622171.385624333, 292214.9150180047 1622168.792304861, 292218.3493530576 1622165.98533948, 292222.376657062 1622163.228649719, 292225.2575157117 1622161.212122591, 292228.9422665345 1622158.712883499, 292233.1543123431 1622156.142749691, 292237.3357395717 1622153.772073621, 292241.2379275495 1622151.503377521, 292245.2488808351 1622149.355485399, 292250.2475230724 1622146.800780207, 292255.462091379 1622144.299567128, 292261.4056165798 1622141.371615291, 292267.7693714919 1622138.451148439, 292273.4478282272 1622136.023449374, 292280.6963597866 1622133.261438925, 292286.2169079671 1622131.266680218, 292320.6467250099 1622119.641145278, 292338.2202647123 1622113.559746709, 292347.0265077562 1622110.275425298, 292352.5348774912 1622108.114790477, 292358.3533923349 1622105.685919605, 292376.8288093847 1622095.446956565, 292394.3286644503 1622084.508071426)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">2</data>
+  <data key="d12">576.7310000000001</data>
+  <data key="d18">['Tandang Sora', 'Luzon Overpass', 'Luzon Avenue']</data>
+  <data key="d13">True</data>
+  <data key="d14">[568988338, 160271108, 72508165]</data>
+  <data key="d20">129</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5473078149" target="1723253583">
+  <data key="d9">LINESTRING (292027.3378643401 1622491.762444312, 292036.6329105964 1622458.682936836, 292070.420837249 1622389.594401663, 292080.9793650204 1622368.212439243, 292123.4894425693 1622279.65010431, 292138.2933167885 1622248.227894931)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">269.07800000000003</data>
+  <data key="d13">True</data>
+  <data key="d14">670821742</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="21834672" target="219738885">
+  <data key="d9">LINESTRING (290170.5843842546 1620789.19487902, 290170.0390247605 1620799.690657187, 290170.2618266483 1620809.305568233, 290172.3576848023 1620817.476776967, 290176.3256317872 1620825.344146161, 290182.0218033374 1620832.466252606, 290188.6387675721 1620838.916444225, 290256.2276698847 1620879.303299203)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">9</data>
+  <data key="d12">134.692</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689849</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="21834672" target="17216338">
+  <data key="d9">LINESTRING (290170.5843842546 1620789.19487902, 290168.3060055479 1620793.618969877, 290163.8267724238 1620801.459429784, 290148.8695468311 1620827.439601204, 290136.3297500468 1620846.371722054, 290127.1528365691 1620859.199371527, 290121.6386374474 1620865.709698769)</data>
+  <data key="d10">trunk</data>
+  <data key="d21">roundabout</data>
+  <data key="d11">7</data>
+  <data key="d12">91.264</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Elliptical Road</data>
+  <data key="d13">True</data>
+  <data key="d14">[398689860, 577047581]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286775739" target="5286775745">
+  <data key="d9">LINESTRING (290385.9073899863 1621013.664643456, 290373.3564276677 1621008.74834603)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">13.471</data>
+  <data key="d13">True</data>
+  <data key="d14">670821738</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286775739" target="5286775749">
+  <data key="d9">LINESTRING (290385.9073899863 1621013.664643456, 290368.0585751953 1620996.565375542, 290313.4195697249 1620958.556873307, 290272.0714319884 1620926.321544703)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">143.837</data>
+  <data key="d19">60.0</data>
+  <data key="d13">True</data>
+  <data key="d14">670619390</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286775745" target="5286775744">
+  <data key="d9">LINESTRING (290373.3564276677 1621008.74834603, 290352.385440819 1621003.196196497, 290310.8863939542 1620978.454162485, 290298.2015835376 1620970.506818653, 290290.2806380202 1620964.012488326, 290287.1903738549 1620960.475642294, 290282.2776661758 1620952.992650595, 290279.0314868882 1620945.10799598)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">117.47</data>
+  <data key="d13">True</data>
+  <data key="d14">547151162</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="5286775745" target="5286775744">
+  <data key="d9">LINESTRING (290373.3564276677 1621008.74834603, 290307.7978671434 1620967.602317318, 290291.5262445298 1620957.262252052, 290279.0314868882 1620945.10799598)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">114.17600000000002</data>
+  <data key="d13">True</data>
+  <data key="d14">547151163</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286775744" target="5286775749">
+  <data key="d9">LINESTRING (290279.0314868882 1620945.10799598, 290272.0714319884 1620926.321544703)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">20.116</data>
+  <data key="d13">True</data>
+  <data key="d14">670619388</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5286775749" target="508308004">
+  <data key="d9">LINESTRING (290272.0714319884 1620926.321544703, 290228.2486957787 1620898.25751531, 290227.2680507065 1620889.468050327)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">60.946</data>
+  <data key="d19">60.0</data>
+  <data key="d13">True</data>
+  <data key="d14">670619389</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="21834704" target="5832237785">
+  <data key="d9">LINESTRING (292608.6744382785 1620893.962711509, 292592.5900499805 1620894.099525717)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">16.061</data>
+  <data key="d13">False</data>
+  <data key="d14">657270901</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="21834704" target="32519675">
+  <data key="d9">LINESTRING (292608.6744382785 1620893.962711509, 292608.5298893852 1620849.100764066, 292608.7261964232 1620786.042762232, 292608.5580982356 1620782.746405599, 292608.7969434449 1620760.157858055, 292609.9333118582 1620612.53353583, 292609.4953187953 1620495.14494331, 292607.3559081228 1620429.805011602)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">466.4480000000001</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">225928461</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="661003422" target="5404831063">
+  <data key="d9">LINESTRING (290160.9332722098 1620705.60377608, 290186.898286147 1620751.837713793)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">53.204</data>
+  <data key="d13">True</data>
+  <data key="d14">560442496</data>
+  <data key="d20">170</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1204284628" target="6332489160">
+  <data key="d9">LINESTRING (291203.9836006018 1621507.126862708, 291286.0611422462 1621562.807608836, 291342.1298293755 1621600.794612991)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">7</data>
+  <data key="d12">167.002</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689856</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1204284635" target="1204284628">
+  <data key="d22">yes</data>
+  <data key="d9">LINESTRING (291174.9798621322 1621532.197483795, 291168.3560906986 1621516.097159675, 291122.719362709 1621484.793786584, 291119.3261456485 1621478.570297134, 291120.738228317 1621471.110445373, 291126.5305334696 1621468.128186066, 291132.0262951164 1621468.258154055, 291136.3574106838 1621470.777399284, 291180.6107053016 1621500.310946359, 291203.9836006018 1621507.126862708)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">182.16</data>
+  <data key="d18">U-Turn Slot</data>
+  <data key="d13">True</data>
+  <data key="d14">104382522</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="1204284635" target="1202895299">
+  <data key="d9">LINESTRING (291174.9798621322 1621532.197483795, 291111.1863135066 1621489.230691712, 290955.5158097312 1621383.751448303, 290941.4068858611 1621374.266727336, 290759.7601098667 1621255.122858365, 290756.8687786011 1621247.135520082)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">4</data>
+  <data key="d12">507.981</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689857</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1112906972" target="5475469605">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (291954.8260957253 1622053.154268686, 291943.2622349643 1622061.530717521)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">14.288</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">False</data>
+  <data key="d14">569337870</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="1112906972" target="6118136437">
+  <data key="d22">no</data>
+  <data key="d9">LINESTRING (291954.8260957253 1622053.154268686, 292020.1462280266 1622048.147885958)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">65.418</data>
+  <data key="d18">Tandang Sora - Commonwealth Crossing</data>
+  <data key="d13">False</data>
+  <data key="d14">652656129</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="1112906972" target="5475588692">
+  <data key="d9">LINESTRING (291954.8260957253 1622053.154268686, 291808.28212496 1621955.759633331, 291704.8682433426 1621886.625949391, 291697.3910568703 1621875.247144956)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">8</data>
+  <data key="d12">314.164</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">569337871</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="26082601" target="1161442585">
+  <data key="d9">LINESTRING (292607.9417058819 1621332.154122026, 292608.1744314734 1621250.603827833, 292609.3819039185 1621054.397343015)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">279.104</data>
+  <data key="d18">Katipunan Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">617654364</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5404831063" target="21834672">
+  <data key="d9">LINESTRING (290186.898286147 1620751.837713793, 290184.942230796 1620757.409949385, 290180.4143261315 1620768.360522275, 290176.8525354477 1620776.392282119, 290170.5843842546 1620789.19487902)</data>
+  <data key="d10">trunk</data>
+  <data key="d21">roundabout</data>
+  <data key="d11">10</data>
+  <data key="d12">40.951</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Elliptical Road</data>
+  <data key="d13">True</data>
+  <data key="d14">[398689861, 560442495]</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="26504623" target="1425125657">
+  <data key="d9">LINESTRING (290307.6322247249 1620029.781335459, 290315.6999058095 1620016.963351076)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">15.191</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">4705604</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="26504623" target="767059625">
+  <data key="d9">LINESTRING (290307.6322247249 1620029.781335459, 290317.9468118984 1620036.443264695)</data>
+  <data key="d10">secondary_link</data>
+  <data key="d11">1</data>
+  <data key="d12">12.284</data>
+  <data key="d13">False</data>
+  <data key="d14">85238918</data>
+  <data key="d15">1</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="6332489160" target="6332489171">
+  <data key="d9">LINESTRING (291342.1298293755 1621600.794612991, 291360.7580516362 1621613.427985878, 291373.1117754791 1621621.799154627)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">7</data>
+  <data key="d12">37.452</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689856</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6332489160" target="6332489165">
+  <data key="d9">LINESTRING (291342.1298293755 1621600.794612991, 291348.1412608606 1621610.82471115, 291346.9973658078 1621620.672606257, 291344.04066595 1621625.157712003, 291339.7001037093 1621629.079209469, 291326.7065382001 1621630.28604244)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">45.967</data>
+  <data key="d13">True</data>
+  <data key="d14">676184649</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6332489165" target="1204284635">
+  <data key="d9">LINESTRING (291326.7065382001 1621630.28604244, 291270.0908624523 1621593.842004804, 291226.8410986366 1621565.716244845, 291212.0408399728 1621555.993853644, 291174.9798621322 1621532.197483795)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">5</data>
+  <data key="d12">180.753</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689855</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6332489166" target="6332489165">
+  <data key="d9">LINESTRING (291348.6009669291 1621644.38541317, 291326.7065382001 1621630.28604244)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">5</data>
+  <data key="d12">26.053</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689855</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6332489166" target="6332489171">
+  <data key="d9">LINESTRING (291348.6009669291 1621644.38541317, 291348.1226660501 1621633.821018392, 291350.3041869833 1621629.397882018, 291353.163172867 1621624.8250818, 291363.4263014179 1621620.554089913, 291373.1117754791 1621621.799154627)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">41.846</data>
+  <data key="d13">True</data>
+  <data key="d14">676184650</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6332489171" target="5475588690">
+  <data key="d9">LINESTRING (291373.1117754791 1621621.799154627, 291470.9442671152 1621688.09110289, 291680.8438530995 1621827.481884727)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">7</data>
+  <data key="d12">370.341</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">398689856</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5473026041" target="1655330495">
+  <data key="d9">LINESTRING (292193.0572687968 1622152.556146524, 292204.639921574 1622156.485535414, 292213.1683794673 1622156.003338069, 292219.9264539357 1622153.843078231, 292230.6366461345 1622146.425759994, 292235.2975605353 1622143.431274502, 292239.0183133405 1622141.363321286, 292248.6930817165 1622136.334125013)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">61.574999999999996</data>
+  <data key="d13">True</data>
+  <data key="d14">156572893</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="5473026041" target="5475547279">
+  <data key="d9">LINESTRING (292193.0572687968 1622152.556146524, 292210.8213539771 1622165.031432599, 292226.9923085224 1622176.402606358, 292252.7945485577 1622204.180640263)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">79.492</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">[670821744, 569337867, 670821743]</data>
+  <data key="d20">170</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6281948754" target="5473078122">
+  <data key="d9">LINESTRING (292154.5989285778 1622199.617777158, 292119.4124023487 1622176.833402752)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">41.938</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">572401161</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="321699458" target="306542783">
+  <data key="d9">LINESTRING (292468.9604852163 1620306.861447183, 292488.1341909514 1620305.071560158, 292508.906375522 1620305.005515572, 292552.1086771061 1620305.988151408, 292579.9026101819 1620305.563656958, 292591.5988719804 1620298.691565898, 292599.3513451155 1620293.037118264, 292604.2304608717 1620281.442318588)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">3</data>
+  <data key="d12">146.676</data>
+  <data key="d18">Carlos P. Garcia</data>
+  <data key="d13">True</data>
+  <data key="d14">29251486</data>
+  <data key="d15">3</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="321699458" target="29025724">
+  <data key="d9">LINESTRING (292468.9604852163 1620306.861447183, 292455.7979840431 1620306.021729385, 292436.205641808 1620304.19649077, 292414.1938591478 1620300.399905011, 292402.56351666 1620297.289629281, 292395.1847015156 1620294.939954121, 292385.6578547583 1620290.860071795, 292367.0239395718 1620282.652478161, 292354.2169253583 1620275.479801583, 292320.9151302181 1620254.139548839, 292307.2456725801 1620245.646266786, 292292.0861006137 1620235.505717854, 292272.1273693265 1620222.29638315, 292259.9072749767 1620214.465831956, 292250.3983049478 1620211.226890593, 292227.9761104315 1620204.800146358, 292210.8374937839 1620201.393811297, 292195.7224762643 1620199.0215585, 292162.9699820579 1620195.394146765, 292122.2046011094 1620192.144920137, 292068.6571907848 1620192.258238924, 292028.8346737713 1620193.449832342, 292020.162538587 1620193.590167692, 291950.8825964929 1620194.734266139, 291929.1545115738 1620196.435691851, 291911.2493118703 1620200.428477198, 291889.5723863303 1620209.389084382, 291859.0068878545 1620223.427584652, 291834.3385259226 1620235.357444548, 291806.1552623612 1620249.519553962, 291756.1831065151 1620274.657489106, 291742.2196652657 1620279.712336644, 291722.5474002134 1620283.687160472, 291707.758665572 1620284.200766494, 291697.8927683393 1620283.333301467, 291688.9235291582 1620282.745910488, 291677.8469311699 1620278.889785155, 291643.5826593373 1620263.523413701, 291627.7396980816 1620259.187899357, 291604.7557650474 1620255.134730176, 291564.4117694414 1620250.776191668, 291533.2977773874 1620251.042079059, 291525.0783199234 1620251.200857459, 291491.0457508169 1620254.136626726, 291457.7259784745 1620250.968729897, 291335.1314859512 1620219.00585967, 291315.9364144205 1620214.533213998, 291244.5573923081 1620197.039208467, 291234.4660032872 1620195.011873457, 291220.2265917605 1620192.997910902, 291205.965274613 1620192.201456286, 291193.9178454865 1620192.005782074, 291184.5633390985 1620191.731729313, 291164.1044813713 1620191.929002491, 291152.6014128749 1620192.392677113, 291144.4265310827 1620192.728263265, 291138.3756573205 1620193.233796327, 291133.1254402861 1620194.130868771, 291127.8027456062 1620195.37162392, 291123.3868332252 1620196.814878921, 291118.995121575 1620198.567789065, 291114.4112862269 1620200.532608431, 291102.740128828 1620206.530988216, 291093.3904798066 1620211.85657023, 291074.2016100944 1620224.470707708, 291062.264513379 1620237.155545134, 291052.1792229435 1620255.966427872, 291047.2136594476 1620267.451711003, 291043.6019675104 1620278.50487145, 291040.3474561642 1620294.778355431, 291035.1136028338 1620320.220783472, 291014.0048330512 1620435.692327817, 290994.3900046119 1620533.101675098, 290975.7247795434 1620636.943627846, 290962.0283325661 1620707.045548345, 290952.9763231345 1620753.347904139, 290948.888802714 1620774.23222771, 290941.0781754432 1620818.288521701, 290931.9519840387 1620869.748525344, 290918.227608676 1620936.552940438, 290915.7991820596 1620947.363603724, 290901.4416682236 1621019.474328915, 290901.0487820072 1621033.963751011)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">2294.1589999999997</data>
+  <data key="d18">Carlos P. Garcia Avenue</data>
+  <data key="d13">False</data>
+  <data key="d14">[669286592, 669286593, 244415606, 657268860, 669286590, 669286591]</data>
+  <data key="d15">2</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="6281948837" target="1723253595">
+  <data key="d9">LINESTRING (292573.9872078883 1622461.593039378, 292408.0831237049 1622349.630881803, 292306.5405708033 1622283.489199544)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">7</data>
+  <data key="d12">321.502</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">5095270</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="6281948838" target="6281948837">
+  <data key="d9">LINESTRING (292590.9224634946 1622433.716397936, 292599.2749962533 1622446.747911344, 292627.1973892265 1622466.761712052, 292652.5259603421 1622482.016929952, 292656.7466034833 1622485.522252754, 292660.8222959241 1622492.249135139, 292661.9480890637 1622496.677182226, 292659.3281993057 1622500.2407347, 292655.1858444071 1622502.135153368, 292650.4307167483 1622502.917081807, 292645.7854536221 1622501.418395387, 292639.8878825377 1622498.347874172, 292615.8664337966 1622480.978923085, 292590.3882111587 1622463.334669031, 292573.9872078883 1622461.593039378)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">199.92499999999998</data>
+  <data key="d18">U-Turn</data>
+  <data key="d13">True</data>
+  <data key="d14">569337869</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="6281948838" target="2141118656">
+  <data key="d9">LINESTRING (292590.9224634946 1622433.716397936, 292599.1801173374 1622439.400621151, 292699.8211908105 1622507.399099147, 292737.146488485 1622536.042241847)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">9</data>
+  <data key="d12">178.652</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670821761</data>
+  <data key="d20">170</data>
+  <data key="d15">4</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="949321476" target="5383505900">
+  <data key="d9">LINESTRING (291135.5443973308 1621517.971892546, 291097.0301688112 1621491.819847446)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">3</data>
+  <data key="d12">46.581</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Commonwealth Avenue</data>
+  <data key="d13">True</data>
+  <data key="d14">670619392</data>
+  <data key="d15">3</data>
+  <data key="d16">60</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="1" source="949321476" target="5383505900">
+  <data key="d9">LINESTRING (291135.5443973308 1621517.971892546, 291117.9703231114 1621515.223078627, 291110.4716278631 1621517.721974087, 291104.180118651 1621521.538504892, 291093.4711184197 1621531.612271452, 291096.3134296761 1621517.555592709, 291098.0030884749 1621502.258280244, 291097.0301688112 1621491.819847446)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">88.14999999999999</data>
+  <data key="d13">True</data>
+  <data key="d14">[558294594, 558294596]</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1350934362" target="26082601">
+  <data key="d9">LINESTRING (292633.4603487853 1621316.432992504, 292629.1827968698 1621325.25610414, 292625.5434146901 1621328.042599268, 292616.9838761544 1621331.236145262, 292607.9417058819 1621332.154122026)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">32.632999999999996</data>
+  <data key="d19">50.0</data>
+  <data key="d13">True</data>
+  <data key="d14">120486481</data>
+  <data key="d15">2</data>
+  <data key="d16">50</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="1350934362" target="2123224262">
+  <data key="d9">LINESTRING (292633.4603487853 1621316.432992504, 292634.7240044384 1621330.731098325, 292636.6943781751 1621340.718362336, 292640.6550777113 1621351.640405239, 292646.2338357943 1621361.530575179, 292658.6538825317 1621377.747863569, 292699.7062199537 1621414.991245778, 292738.1509515357 1621448.405749354, 292806.8035307162 1621508.25562735, 292818.7246079033 1621520.294120842, 292823.6625287931 1621530.853748847, 292826.0617037271 1621544.400750153, 292827.6046722396 1621566.221623522, 292827.6478467522 1621571.300729963, 292826.5625021021 1621576.699288323)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">6</data>
+  <data key="d12">341.00999999999993</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">225928466</data>
+  <data key="d20">129</data>
+  <data key="d15">4</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5473025897" target="5515806586">
+  <data key="d9">LINESTRING (292309.2720665919 1622097.140463639, 292305.2156885848 1622096.488924349, 292299.2066241425 1622095.522039394, 292291.1650299226 1622093.720368718, 292221.8074849368 1622073.750329527, 292147.9145957509 1622052.568655587, 292137.6981194574 1622049.667875864, 292122.9285671728 1622045.987029807, 292111.204554801 1622044.438161718, 292102.0917874017 1622043.365007541, 292090.6387806243 1622043.27460663, 292080.8910736114 1622043.545917589, 292071.2295480688 1622043.816496993, 292063.636101486 1622044.036231124, 292041.6022897612 1622045.06533504)</data>
+  <data key="d10">primary</data>
+  <data key="d11">1</data>
+  <data key="d12">274.54100000000005</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">False</data>
+  <data key="d14">[568988336, 670821763]</data>
+  <data key="d15">1</data>
+  <data key="d16">30</data>
+  <data key="d17">1000</data>
+</edge>
+<edge id="0" source="5473025897" target="5475456844">
+  <data key="d9">LINESTRING (292309.2720665919 1622097.140463639, 292312.7566430817 1622097.697280006, 292319.4465741746 1622097.651319515, 292325.7982130386 1622097.099188822, 292332.8560388231 1622095.976652846, 292338.5318490109 1622094.500706333, 292342.5183288466 1622093.271554572, 292345.9230840268 1622092.04736157, 292349.3480645091 1622090.668066768, 292368.5521228577 1622082.492309706, 292387.8957659629 1622074.260047984, 292398.9159225627 1622070.33716349, 292442.4585774148 1622055.989299698)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">140.403</data>
+  <data key="d19">40.0</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">[569325550, 216702188, 569188755, 572407446]</data>
+  <data key="d20">129</data>
+  <data key="d15">2</data>
+  <data key="d16">40</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5473025914" target="5475456844">
+  <data key="d9">LINESTRING (292394.3286644503 1622084.508071426, 292406.8121836673 1622076.577742729, 292442.4585774148 1622055.989299698)</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3</data>
+  <data key="d12">55.962</data>
+  <data key="d18">Tandang Sora</data>
+  <data key="d13">True</data>
+  <data key="d14">670619386</data>
+  <data key="d15">3</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+<edge id="0" source="5292875721" target="5286795628">
+  <data key="d9">LINESTRING (290212.2283387204 1620210.709428143, 290199.8650200694 1620220.14484938)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">15.565</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">547804365</data>
+  <data key="d15">2</data>
+  <data key="d16">25</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5292875721" target="5286795626">
+  <data key="d9">LINESTRING (290212.2283387204 1620210.709428143, 290206.5294424398 1620224.580546247, 290174.9500853295 1620274.740127162, 290115.127745041 1620369.574953679, 290102.4990907426 1620390.732196908)</data>
+  <data key="d10">secondary</data>
+  <data key="d11">2</data>
+  <data key="d12">211.68200000000002</data>
+  <data key="d19">60.0</data>
+  <data key="d18">Kalayaan</data>
+  <data key="d13">True</data>
+  <data key="d14">547804364</data>
+  <data key="d15">2</data>
+  <data key="d16">60</data>
+  <data key="d17">900</data>
+</edge>
+<edge id="0" source="5473026038" target="5473025914">
+  <data key="d9">LINESTRING (292312.9017396244 1622113.454635194, 292335.3447426517 1622106.092286122, 292348.9608329925 1622100.85247785, 292359.1421184686 1622097.102718895, 292375.930429393 1622089.899268008, 292394.3286644503 1622084.508071426)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">1</data>
+  <data key="d12">86.43199999999999</data>
+  <data key="d13">True</data>
+  <data key="d14">[568988339, 568988340]</data>
+  <data key="d15">1</data>
+  <data key="d16">45</data>
+  <data key="d17">1900</data>
+</edge>
+<edge id="0" source="5473026038" target="5473025897">
+  <data key="d9">LINESTRING (292312.9017396244 1622113.454635194, 292314.5561290885 1622111.636704798, 292315.6917323341 1622109.624001187, 292315.935938869 1622107.9398226, 292315.7819335953 1622106.303304223, 292315.3962310321 1622104.026908159, 292314.6365030272 1622102.107826086, 292309.2720665919 1622097.140463639)</data>
+  <data key="d10">trunk_link</data>
+  <data key="d11">2</data>
+  <data key="d12">19.858</data>
+  <data key="d13">True</data>
+  <data key="d14">569190640</data>
+  <data key="d15">2</data>
+  <data key="d16">45</data>
+  <data key="d17">2000</data>
+</edge>
+</graph></graphml>

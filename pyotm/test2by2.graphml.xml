@@ -1,0 +1,164 @@
+<scenario>
+  <network>
+    <nodes>
+      <node id="0" x="0.0" y="0.0"/>
+      <node id="1" x="100.0" y="0.0"/>
+      <node id="2" x="0.0" y="100.0"/>
+      <node id="3" x="100.0" y="100.0"/>
+      <node id="4" x="-50.0" y="-50.0"/>
+      <node id="5" x="150.0" y="150.0"/>
+    </nodes>
+    <links>
+      <link id="0" length="100.0" full_lanes="4" start_node_id="0" end_node_id="1" roadparam="0"/>
+      <link id="1" length="100.0" full_lanes="4" start_node_id="0" end_node_id="2" roadparam="0"/>
+      <link id="2" length="100.0" full_lanes="4" start_node_id="1" end_node_id="0" roadparam="0"/>
+      <link id="3" length="100.0" full_lanes="4" start_node_id="1" end_node_id="3" roadparam="0"/>
+      <link id="4" length="100.0" full_lanes="4" start_node_id="2" end_node_id="0" roadparam="0"/>
+      <link id="5" length="100.0" full_lanes="4" start_node_id="2" end_node_id="3" roadparam="0"/>
+      <link id="6" length="100.0" full_lanes="4" start_node_id="3" end_node_id="1" roadparam="0"/>
+      <link id="7" length="100.0" full_lanes="4" start_node_id="3" end_node_id="2" roadparam="0"/>
+      <link id="8" length="141.4213562373095" full_lanes="1" start_node_id="3" end_node_id="5" roadparam="0"/>
+      <link id="9" length="141.4213562373095" full_lanes="1" start_node_id="4" end_node_id="0" roadparam="0"/>
+    </links>
+    <roadparams>
+      <roadparam id="0" name="link type 0" speed="60.0" capacity="2500.0" jam_density="208.33333333333331"/>
+    </roadparams>
+    <roadconnections>
+      <roadconnection id="0" in_link="0" out_link="3" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="1" in_link="6" out_link="2" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="2" in_link="1" out_link="5" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="3" in_link="7" out_link="4" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="4" in_link="2" out_link="1" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="5" in_link="4" out_link="0" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="6" in_link="9" out_link="0" in_link_lanes="1#1" out_link_lanes="1#4"/>
+      <roadconnection id="7" in_link="9" out_link="1" in_link_lanes="1#1" out_link_lanes="1#4"/>
+      <roadconnection id="8" in_link="3" out_link="7" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="9" in_link="3" out_link="8" in_link_lanes="1#4" out_link_lanes="1#1"/>
+      <roadconnection id="10" in_link="5" out_link="6" in_link_lanes="1#4" out_link_lanes="1#4"/>
+      <roadconnection id="11" in_link="5" out_link="8" in_link_lanes="1#4" out_link_lanes="1#1"/>
+    </roadconnections>
+  </network>
+  <splits>
+    <split_node node_id="0" commodity_id="0" link_in="2">
+      <split link_out="0">0.5</split>
+      <split link_out="1">0.5</split>
+    </split_node>
+    <split_node node_id="0" commodity_id="0" link_in="4">
+      <split link_out="0">0.5</split>
+      <split link_out="1">0.5</split>
+    </split_node>
+    <split_node node_id="0" commodity_id="0" link_in="9">
+      <split link_out="0">0.5</split>
+      <split link_out="1">0.5</split>
+    </split_node>
+    <split_node node_id="1" commodity_id="0" link_in="0">
+      <split link_out="2">0.5</split>
+      <split link_out="3">0.5</split>
+    </split_node>
+    <split_node node_id="1" commodity_id="0" link_in="6">
+      <split link_out="2">0.5</split>
+      <split link_out="3">0.5</split>
+    </split_node>
+    <split_node node_id="2" commodity_id="0" link_in="1">
+      <split link_out="4">0.5</split>
+      <split link_out="5">0.5</split>
+    </split_node>
+    <split_node node_id="2" commodity_id="0" link_in="7">
+      <split link_out="4">0.5</split>
+      <split link_out="5">0.5</split>
+    </split_node>
+    <split_node node_id="3" commodity_id="0" link_in="3">
+      <split link_out="6">0.3333333333333333</split>
+      <split link_out="7">0.3333333333333333</split>
+      <split link_out="8">0.3333333333333333</split>
+    </split_node>
+    <split_node node_id="3" commodity_id="0" link_in="5">
+      <split link_out="6">0.3333333333333333</split>
+      <split link_out="7">0.3333333333333333</split>
+      <split link_out="8">0.3333333333333333</split>
+    </split_node>
+  </splits>
+  <subnetworks>
+    <subnetwork id="1">0,1,2,3,4,5,6,7,8,9</subnetwork>
+  </subnetworks>
+  <demands>
+    <demand commodity_id="0" subnetwork="1" start_time="0" link_id="9" dt="600">100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000,100,6000</demand>
+  </demands>
+  <actuators>
+    <actuator id="0" type="signal">
+      <actuator_target type="node" id="1"/>
+      <signal>
+        <phase id="0" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="1"/>
+        <phase id="3" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="0"/>
+      </signal>
+    </actuator>
+    <actuator id="1" type="signal">
+      <actuator_target type="node" id="2"/>
+      <signal>
+        <phase id="0" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="2"/>
+        <phase id="3" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="3"/>
+      </signal>
+    </actuator>
+    <actuator id="2" type="signal">
+      <actuator_target type="node" id="0"/>
+      <signal>
+        <phase id="1" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="4"/>
+        <phase id="2" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="5"/>
+      </signal>
+    </actuator>
+    <actuator id="3" type="signal">
+      <actuator_target type="node" id="3"/>
+      <signal>
+        <phase id="0" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="9"/>
+        <phase id="1" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="10"/>
+        <phase id="2" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="8"/>
+        <phase id="3" yellow_time="3" red_clear_time="2" min_green_time="5" roadconnection_ids="11"/>
+      </signal>
+    </actuator>
+  </actuators>
+  <sensors>
+    <sensor id="0" type="fixed" dt="10" link_id="0"/>
+    <sensor id="1" type="fixed" dt="10" link_id="1"/>
+    <sensor id="2" type="fixed" dt="10" link_id="2"/>
+    <sensor id="3" type="fixed" dt="10" link_id="3"/>
+    <sensor id="4" type="fixed" dt="10" link_id="4"/>
+    <sensor id="5" type="fixed" dt="10" link_id="5"/>
+    <sensor id="6" type="fixed" dt="10" link_id="6"/>
+    <sensor id="7" type="fixed" dt="10" link_id="7"/>
+    <sensor id="8" type="fixed" dt="10" link_id="8"/>
+    <sensor id="9" type="fixed" dt="10" link_id="9"/>
+  </sensors>
+  <controllers>
+    <controller id="0" type="linkpressure" dt="10">
+      <target_actuators>
+        <target_actuator id="0" usage="1"/>
+        <target_actuator id="1" usage="2"/>
+        <target_actuator id="2" usage="0"/>
+        <target_actuator id="3" usage="3"/>
+      </target_actuators>
+      <feedback_sensors>
+        <feedback_sensor id="0" usage="0"/>
+        <feedback_sensor id="1" usage="1"/>
+        <feedback_sensor id="2" usage="2"/>
+        <feedback_sensor id="3" usage="3"/>
+        <feedback_sensor id="4" usage="4"/>
+        <feedback_sensor id="5" usage="5"/>
+        <feedback_sensor id="6" usage="6"/>
+        <feedback_sensor id="7" usage="7"/>
+        <feedback_sensor id="8" usage="8"/>
+        <feedback_sensor id="9" usage="9"/>
+      </feedback_sensors>
+    </controller>
+  </controllers>
+  <plugins>
+    <plugin name="linkpressure" folder="/Users/acbalingit/Projects/otm/otm-plugin/target/otm-plugin-1.0-SNAPSHOT.jar" class="controller.ControllerSignalPretimedTest"/>
+  </plugins>
+  <models>
+    <model type="ctm" name="myctm" is_default="true">
+      <model_params max_cell_length="100" sim_dt="2"/>
+    </model>
+  </models>
+  <commodities>
+    <commodity id="0" name="car" subnetworks="1"/>
+  </commodities>
+</scenario>

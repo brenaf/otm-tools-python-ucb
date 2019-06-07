@@ -1,0 +1,134 @@
+<scenario>
+  <network>
+    <nodes>
+      <node id="0" x="0" y="0"/>
+      <node id="1" x="0" y="-400"/>
+      <node id="2" x="400.00" y="0.00"/>
+      <node id="3" x="0.00" y="400.00"/>
+      <node id="4" x="-400.00" y="0.00"/>
+      <!-- sources -->
+      <node id="5" x="-50.00" y="-450.00"/>
+      <node id="6" x="450.00" y="-50.00"/>
+      <node id="7" x="50.00" y="450.00"/>
+      <node id="8" x="-450" y="50.00"/>
+      <!-- sinks -->
+      <node id="9" x="50.00" y="-450.00"/>
+      <node id="10" x="450.00" y="50.00"/>
+      <node id="11" x="-50.00" y="450.00"/>
+      <node id="12" x="-450" y="-50.00"/>
+    </nodes>
+    <links>
+      <link id="0" length="400" full_lanes="1" start_node_id="0" end_node_id="1" roadparam="1" />
+      <link id="1" length="400" full_lanes="1" start_node_id="1" end_node_id="0" roadparam="1" />
+      <link id="2" length="400" full_lanes="1" start_node_id="0" end_node_id="2" roadparam="1" />
+      <link id="3" length="400" full_lanes="1" start_node_id="2" end_node_id="0" roadparam="1" />
+      <link id="4" length="400" full_lanes="1" start_node_id="0" end_node_id="3" roadparam="1" />
+      <link id="5" length="400" full_lanes="1" start_node_id="3" end_node_id="0" roadparam="1" />
+      <link id="6" length="400" full_lanes="1" start_node_id="0" end_node_id="4" roadparam="1" />
+      <link id="7" length="400" full_lanes="1" start_node_id="4" end_node_id="0" roadparam="1" />
+      <!-- sources -->
+      <link id="8" length="70.71" full_lanes="1" start_node_id="5" end_node_id="1" roadparam="1" />
+      <link id="9" length="70.71" full_lanes="1" start_node_id="6" end_node_id="2" roadparam="1" />
+      <link id="10" length="70.71" full_lanes="1" start_node_id="7" end_node_id="3" roadparam="1" />
+      <link id="11" length="70.71" full_lanes="1" start_node_id="8" end_node_id="4" roadparam="1" />
+      <!-- sinks -->
+      <link id="12" length="70.71" full_lanes="1" start_node_id="1" end_node_id="9" roadparam="1" />
+      <link id="13" length="70.71" full_lanes="1" start_node_id="2" end_node_id="10" roadparam="1" />
+      <link id="14" length="70.71" full_lanes="1" start_node_id="3" end_node_id="11" roadparam="1" />
+      <link id="15" length="70.71" full_lanes="1" start_node_id="4" end_node_id="12" roadparam="1" />
+    </links>
+    <roadconnections>
+    <!-- straight turns -->
+      <roadconnection id="0" in_link="1" out_link="4" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="1" in_link="5" out_link="0" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="2" in_link="7" out_link="2" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="3" in_link="3" out_link="6" in_link_lanes="1#1" out_link_lanes="1#1"/>
+    <!-- right turns -->
+      <roadconnection id="4" in_link="1" out_link="2" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="5" in_link="3" out_link="4" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="6" in_link="5" out_link="6" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="7" in_link="7" out_link="0" in_link_lanes="1#1" out_link_lanes="1#1"/>
+    <!-- left turns -->
+      <roadconnection id="8" in_link="1" out_link="6" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="9" in_link="3" out_link="0" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="10" in_link="5" out_link="2" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="11" in_link="7" out_link="4" in_link_lanes="1#1" out_link_lanes="1#1"/>
+    <!-- sources -->
+      <roadconnection id="12" in_link="8" out_link="1" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="13" in_link="9" out_link="3" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="14" in_link="10" out_link="5" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="15" in_link="11" out_link="7" in_link_lanes="1#1" out_link_lanes="1#1"/>
+    <!-- sinks -->
+      <roadconnection id="16" in_link="0" out_link="12" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="17" in_link="2" out_link="13" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="18" in_link="4" out_link="14" in_link_lanes="1#1" out_link_lanes="1#1"/>
+      <roadconnection id="19" in_link="6" out_link="15" in_link_lanes="1#1" out_link_lanes="1#1"/>
+    </roadconnections>
+    <roadparams>
+      <roadparam id="1" name="default" speed="60.0" capacity="2500.0" jam_density="208.33333333333331"/>
+    </roadparams>
+  </network>
+  <!-- <signal>
+    <phase id="0" roadconnection_ids="0,1,4,6"/>
+    <phase id="1" roadconnection_ids="8,10"/>
+    <phase id="2" roadconnection_ids="2,3,5,7"/>
+    <phase id="3" roadconnection_ids="9,11"/>
+  </signal> -->
+  <commodities>
+    <commodity id="0" name="car" pathfull="false"/>
+  </commodities>
+  <demands>
+    <demand commodity_id="0" link_id="8" dt="20">100,2000</demand>
+    <demand commodity_id="0" link_id="9" dt="20">100,2000</demand>
+    <demand commodity_id="0" link_id="10" dt="20">100,2000</demand>
+    <demand commodity_id="0" link_id="11" dt="20">100,2000</demand>
+  </demands>
+  <splits>
+    <split_node node_id="0" commodity_id="0" link_in="1">
+      <split link_out="4">0.7</split>
+      <split link_out="2">0.15</split>
+      <split link_out="6">0.15</split>
+    </split_node>
+    <split_node node_id="0" commodity_id="0" link_in="3">
+      <split link_out="6">0.7</split>
+      <split link_out="0">0.15</split>
+      <split link_out="4">0.15</split>
+    </split_node>
+    <split_node node_id="0" commodity_id="0" link_in="5">
+      <split link_out="0">0.7</split>
+      <split link_out="2">0.15</split>
+      <split link_out="6">0.15</split>
+    </split_node>
+    <split_node node_id="0" commodity_id="0" link_in="7">
+      <split link_out="2">0.7</split>
+      <split link_out="4">0.15</split>
+      <split link_out="0">0.15</split>
+    </split_node>
+    <!-- sources -->
+    <split_node node_id="1" commodity_id="0" link_in="8">
+      <split link_out="1">1</split>
+    </split_node>
+    <split_node node_id="2" commodity_id="0" link_in="9">
+      <split link_out="3">1</split>
+    </split_node>
+    <split_node node_id="3" commodity_id="0" link_in="10">
+      <split link_out="5">1</split>
+    </split_node>
+    <split_node node_id="4" commodity_id="0" link_in="11">
+      <split link_out="7">1</split>
+    </split_node>
+    <!-- sinks -->
+    <split_node node_id="1" commodity_id="0" link_in="0">
+      <split link_out="12">1</split>
+    </split_node>
+    <split_node node_id="2" commodity_id="0" link_in="2">
+      <split link_out="13">1</split>
+    </split_node>
+    <split_node node_id="3" commodity_id="0" link_in="4">
+      <split link_out="14">1</split>
+    </split_node>
+    <split_node node_id="4" commodity_id="0" link_in="6">
+      <split link_out="15">1</split>
+    </split_node>
+  </splits>
+</scenario>

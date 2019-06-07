@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="dir_txt" attr.type="string" for="edge" id="d12"/>
+<key attr.name="speed" attr.type="string" for="edge" id="d11"/>
+<key attr.name="capacity_lane_hour" attr.type="string" for="edge" id="d10"/>
+<key attr.name="direction" attr.type="string" for="edge" id="d9"/>
+<key attr.name="lanes" attr.type="string" for="edge" id="d8"/>
+<key attr.name="length" attr.type="string" for="edge" id="d7"/>
+<key attr.name="geometry" attr.type="string" for="edge" id="d6"/>
+<key attr.name="geometry" attr.type="string" for="node" id="d5"/>
+<key attr.name="y" attr.type="string" for="node" id="d4"/>
+<key attr.name="x" attr.type="string" for="node" id="d3"/>
+<key attr.name="id" attr.type="string" for="node" id="d2"/>
+<key attr.name="name" attr.type="string" for="graph" id="d1"/>
+<key attr.name="crs" attr.type="string" for="graph" id="d0"/>
+<graph edgedefault="directed"><data key="d0">{'init': 'epsg:32651'}</data>
+<data key="d1">grid</data>
+<node id="0">
+  <data key="d2">0</data>
+  <data key="d3">0</data>
+  <data key="d4">0</data>
+  <data key="d5">POINT (0 0)</data>
+</node>
+<node id="1">
+  <data key="d2">1</data>
+  <data key="d3">100</data>
+  <data key="d4">0</data>
+  <data key="d5">POINT (100 0)</data>
+</node>
+<node id="2">
+  <data key="d2">2</data>
+  <data key="d3">0</data>
+  <data key="d4">100</data>
+  <data key="d5">POINT (0 100)</data>
+</node>
+<node id="3">
+  <data key="d2">3</data>
+  <data key="d3">100</data>
+  <data key="d4">100</data>
+  <data key="d5">POINT (100 100)</data>
+</node>
+<node id="4">
+  <data key="d2">4</data>
+  <data key="d3">-50.0</data>
+  <data key="d4">-50.0</data>
+  <data key="d5">POINT (-50 -50)</data>
+</node>
+<node id="5">
+  <data key="d2">5</data>
+  <data key="d3">150.0</data>
+  <data key="d4">150.0</data>
+  <data key="d5">POINT (150 150)</data>
+</node>
+<edge id="0" source="0" target="1">
+  <data key="d6">LINESTRING (0 0, 100 0)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">0</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">EAST</data>
+</edge>
+<edge id="0" source="0" target="2">
+  <data key="d6">LINESTRING (0 0, 0 100)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">1.5707963267948966</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">NORTH</data>
+</edge>
+<edge id="0" source="1" target="0">
+  <data key="d6">LINESTRING (100 0, 0 0)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">3.141592653589793</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">WEST</data>
+</edge>
+<edge id="0" source="1" target="3">
+  <data key="d6">LINESTRING (100 0, 100 100)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">1.5707963267948966</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">NORTH</data>
+</edge>
+<edge id="0" source="2" target="0">
+  <data key="d6">LINESTRING (0 100, 0 0)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">4.71238898038469</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">SOUTH</data>
+</edge>
+<edge id="0" source="2" target="3">
+  <data key="d6">LINESTRING (0 100, 100 100)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">0</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">EAST</data>
+</edge>
+<edge id="0" source="3" target="1">
+  <data key="d6">LINESTRING (100 100, 100 0)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">4.71238898038469</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">SOUTH</data>
+</edge>
+<edge id="0" source="3" target="2">
+  <data key="d6">LINESTRING (100 100, 0 100)</data>
+  <data key="d7">100</data>
+  <data key="d8">4</data>
+  <data key="d9">3.141592653589793</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d12">WEST</data>
+</edge>
+<edge id="0" source="3" target="5">
+  <data key="d7">141.4213562373095</data>
+  <data key="d8">1</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d9">0.7853981633974483</data>
+  <data key="d6">LINESTRING (100 100, 150 150)</data>
+</edge>
+<edge id="0" source="4" target="0">
+  <data key="d7">141.4213562373095</data>
+  <data key="d8">1</data>
+  <data key="d10">2500</data>
+  <data key="d11">60</data>
+  <data key="d9">0.7853981633974483</data>
+  <data key="d6">LINESTRING (-50 -50, 0 0)</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,16 @@
+{
+    "UPDiliman": {
+        "bbox": {"north":14.6689, "south":14.6406, "east":121.0989, "west": 121.0480},
+        "custom_filter": "['highway'~'primary|trunk|motorway|secondary|tertiary']"
+    },
+
+    "UPDiliman_small": {
+        "bbox": {"north":14.6689, "south":14.6406, "east":121.0989, "west": 121.0480},
+        "custom_filter": "['highway'~'primary|trunk|motorway|secondary']"
+    },
+
+    "MetroManila": {
+        "bbox": {"north":14.7868, "south":14.3462, "east":121.1380, "west": 120.9032},
+        "custom_filter": "['highway'~'primary|trunk|motorway']"
+    }
+}
